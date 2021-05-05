@@ -325,6 +325,7 @@ void send_packet(uint8_t channel)
 int main(void)
 {
     uint32_t err_code;
+    uint32_t delay;
 
     log_init();
 
@@ -347,8 +348,8 @@ int main(void)
 
     NRF_LOG_DEFAULT_BACKENDS_INIT();
 
-   // err_code = bsp_init(BSP_INIT_LEDS | BSP_INIT_BUTTONS, bsp_evt_handler);
-   //APP_ERROR_CHECK(err_code);
+    // err_code = bsp_init(BSP_INIT_LEDS | BSP_INIT_BUTTONS, bsp_evt_handler);
+    //APP_ERROR_CHECK(err_code);
 
     // Set radio configuration parameters
     radio_configure();
@@ -357,7 +358,7 @@ int main(void)
     assemble_ibeacon_packet(); 
     // NRF_RADIO->FREQUENCY = 2UL; 
     // Set payload pointer
-    NRF_RADIO->PACKETPTR = (uint8_t)(app_vars.packet[0]);
+    NRF_RADIO->PACKETPTR = (uint32_t)(&app_vars.packet[0]);
 
     NRF_LOG_INFO("Radio transmitter example started.");
     APP_ERROR_CHECK(err_code);
@@ -366,6 +367,8 @@ while(1)
 {   
     send_packet(37);
     NRF_LOG_FLUSH();
+
+    for (delay=0;delay<0xfffff;delay++);
     // __WFE();
 }
 

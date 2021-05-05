@@ -106,7 +106,7 @@
     </folder>
     <configuration
       Name="Release"
-      c_user_include_directories=".;D:\\nRF5SDK1702d674dde\\nRF5_SDK_17.0.2_d674dde\\components\\drivers_nrf\\radio_config" />
+      c_user_include_directories="../../../../../../components/drivers_nrf/radio_config" />
   </project>
   <configuration
     Name="Release"
