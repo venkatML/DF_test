@@ -1,0 +1,46 @@
+Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o: \
+ D\:\DF_test\components\drivers_nrf\radio_config\radio_config.c \
+ D\:\DF_test\components\drivers_nrf\radio_config\radio_config.h \
+ d\:\df_test\components\libraries\delay\nrf_delay.h \
+ d\:\df_test\modules\nrfx\nrfx.h \
+ d\:\df_test\integration\nrfx\nrfx_config.h ../config/sdk_config.h \
+ d\:\df_test\modules\nrfx\drivers\nrfx_common.h \
+ D\:/ncs/v1.5.1/toolchain/segger_embedded_studio/include/stdint.h \
+ D\:/ncs/v1.5.1/toolchain/segger_embedded_studio/include/stddef.h \
+ D\:/ncs/v1.5.1/toolchain/segger_embedded_studio/include/__crossworks.h \
+ D\:/ncs/v1.5.1/toolchain/segger_embedded_studio/include/stdbool.h \
+ d\:\df_test\modules\nrfx\mdk\nrf.h \
+ d\:\df_test\modules\nrfx\mdk\nrf52833.h \
+ d\:\df_test\components\toolchain\cmsis\include\core_cm4.h \
+ d\:\df_test\components\toolchain\cmsis\include\cmsis_version.h \
+ d\:\df_test\components\toolchain\cmsis\include\cmsis_compiler.h \
+ d\:\df_test\components\toolchain\cmsis\include\cmsis_gcc.h \
+ d\:\df_test\components\toolchain\cmsis\include\mpu_armv7.h \
+ d\:\df_test\modules\nrfx\mdk\system_nrf52833.h \
+ d\:\df_test\modules\nrfx\mdk\nrf52833_bitfields.h \
+ d\:\df_test\modules\nrfx\mdk\nrf52_to_nrf52833.h \
+ d\:\df_test\modules\nrfx\mdk\nrf51_to_nrf52.h \
+ d\:\df_test\modules\nrfx\mdk\compiler_abstraction.h \
+ d\:\df_test\modules\nrfx\mdk\nrf_peripherals.h \
+ d\:\df_test\modules\nrfx\mdk\nrf52833_peripherals.h \
+ d\:\df_test\integration\nrfx\nrfx_glue.h \
+ d\:\df_test\integration\nrfx\legacy\apply_old_config.h \
+ d\:\df_test\modules\nrfx\soc\nrfx_irqs.h \
+ d\:\df_test\modules\nrfx\soc\nrfx_irqs_nrf52833.h \
+ d\:\df_test\components\libraries\util\nrf_assert.h \
+ d\:\df_test\components\libraries\util\app_util.h \
+ d\:\df_test\modules\nrfx\mdk\compiler_abstraction.h \
+ d\:\df_test\components\libraries\util\nordic_common.h \
+ d\:\df_test\components\libraries\util\nordic_common.h \
+ d\:\df_test\components\libraries\util\app_util_platform.h \
+ d\:\df_test\components\libraries\util\nrf_assert.h \
+ d\:\df_test\components\libraries\util\app_error.h \
+ D\:/ncs/v1.5.1/toolchain/segger_embedded_studio/include/stdio.h \
+ d\:\df_test\components\libraries\util\sdk_errors.h \
+ d\:\df_test\components\drivers_nrf\nrf_soc_nosd\nrf_error.h \
+ d\:\df_test\components\libraries\util\app_error_weak.h \
+ d\:\df_test\modules\nrfx\soc\nrfx_coredep.h \
+ d\:\df_test\modules\nrfx\soc\nrfx_atomic.h \
+ d\:\df_test\components\libraries\util\sdk_errors.h \
+ d\:\df_test\components\libraries\util\sdk_resources.h \
+ d\:\df_test\modules\nrfx\drivers\nrfx_errors.h

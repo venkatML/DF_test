@@ -1,0 +1,57 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="9" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../main.c" useHWbreakpoint="false"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="transmitter_pca10040"/>
+  <ProjectSessionItem path="transmitter_pca10040;transmitter_pca10040"/>
+  <ProjectSessionItem path="transmitter_pca10040;transmitter_pca10040;Application"/>
+  <ProjectSessionItem path="transmitter_pca10040;transmitter_pca10040;Board Definition"/>
+  <ProjectSessionItem path="transmitter_pca10040;transmitter_pca10040;Board Support"/>
+  <ProjectSessionItem path="transmitter_pca10040;transmitter_pca10040;nRF_Drivers"/>
+  <ProjectSessionItem path="transmitter_pca10040;transmitter_pca10040;nRF_Libraries"/>
+  <ProjectSessionItem path="transmitter_pca10040;transmitter_pca10040;nRF_Log"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="187" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="178" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../components/boards/boards.c" selected="0" top="224" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="212" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../components/libraries/bsp/bsp.c" selected="0" top="349" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="41" useTextEdit="1" openedFrom="D:/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/radio/transmitter/main.c" useBinaryEdit="0" left="0" path="../../../../../../../components/drivers_nrf/radio_config/radio_config.c" selected="1" top="36" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="421" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../../components/libraries/log/src/nrf_log_frontend.c" selected="0" top="409" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="4" useTextEdit="1" openedFrom="D:/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/components/drivers_nrf/radio_config/radio_config.c" useBinaryEdit="0" left="0" path="../../../../../../../components/drivers_nrf/radio_config/radio_config.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="916" useTextEdit="1" openedFrom="D:/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/radio/transmitter/main.c" useBinaryEdit="0" left="0" path="../../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h" selected="0" top="899" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="transmitter_pca10040" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>
