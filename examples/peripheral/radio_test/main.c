@@ -357,7 +357,7 @@ int main(void)
     assemble_ibeacon_packet(); 
     // NRF_RADIO->FREQUENCY = 2UL; 
     // Set payload pointer
-    NRF_RADIO->PACKETPTR = (uint8_t)(app_vars.packet[0]);
+    NRF_RADIO->PACKETPTR = (uint8_t)(&app_vars.packet[0]);
 
     NRF_LOG_INFO("Radio transmitter example started.");
     APP_ERROR_CHECK(err_code);

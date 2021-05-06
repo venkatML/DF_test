@@ -217,10 +217,19 @@ void radio_configure_direction_finding_inline(void) {
 
 
 
-#define DD_MAX_PAYLOAD_LENGTH (31+6)
+#define MAX_PACKET_SIZE (255)
 #define CRC_POLYNOMIAL_INIT_SETTINGS  ((0x5B << 0) | (0x06 << 8) | (0x00 << 16))
 uint8_t access_address[4] = {0xD6, 0xBE, 0x89, 0x8E};
 uint8_t seed[3] = {0x55, 0x55, 0x55};
+
+
+#define RADIO_CRCINIT_24BIT       0x555555
+#define RADIO_CRCPOLY_24BIT       0x0000065B  /// ref: https://devzone.nordicsemi.com/f/nordic-q-a/44111/crc-register-values-for-a-24-bit-crc
+#define INTERFRAM_SPACING         (150)       // in us
+
+#define BLE_ACCESS_ADDR           0x8E89BED6  // the actual address is 0xD6, 0xBE, 0x89, 0x8E
+
+#define RADIO_TXPOWER             0 // in 2-compilant format
 
 /**@brief The default SHORTS configuration. */
 #define DEFAULT_RADIO_SHORTS                                             \
@@ -232,42 +241,43 @@ uint8_t seed[3] = {0x55, 0x55, 0x55};
 void radio_configure()
 {
 #if 1
-    NRF_RADIO->POWER = RADIO_POWER_POWER_Disabled << RADIO_POWER_POWER_Pos;
-    NRF_RADIO->POWER = RADIO_POWER_POWER_Enabled << RADIO_POWER_POWER_Pos;
+        // set radio configuration parameters
+    NRF_RADIO->TXPOWER     = (uint32_t)RADIO_TXPOWER;
 
-    NRF_RADIO->SHORTS = DEFAULT_RADIO_SHORTS;
     
-    NRF_RADIO->PCNF0 =   (((1UL) << RADIO_PCNF0_S0LEN_Pos) & RADIO_PCNF0_S0LEN_Msk)
-                       | (((2UL) << RADIO_PCNF0_S1LEN_Pos) & RADIO_PCNF0_S1LEN_Msk)
-                       | (((6UL) << RADIO_PCNF0_LFLEN_Pos) & RADIO_PCNF0_LFLEN_Msk);
+     // configure packet
+    NRF_RADIO->PCNF0       = 
+        (((1UL) << RADIO_PCNF0_S0LEN_Pos) & RADIO_PCNF0_S0LEN_Msk) | 
+        (((0UL) << RADIO_PCNF0_S1LEN_Pos) & RADIO_PCNF0_S1LEN_Msk) |
+        (((8UL) << RADIO_PCNF0_LFLEN_Pos) & RADIO_PCNF0_LFLEN_Msk);
 
-    NRF_RADIO->PCNF1 =   (((RADIO_PCNF1_ENDIAN_Little)        << RADIO_PCNF1_ENDIAN_Pos) & RADIO_PCNF1_ENDIAN_Msk)
-                       | (((3UL)                              << RADIO_PCNF1_BALEN_Pos)  & RADIO_PCNF1_BALEN_Msk)
-                       | (((0UL)                              << RADIO_PCNF1_STATLEN_Pos)& RADIO_PCNF1_STATLEN_Msk)
-                       | ((((uint32_t)DD_MAX_PAYLOAD_LENGTH)  << RADIO_PCNF1_MAXLEN_Pos) & RADIO_PCNF1_MAXLEN_Msk)
-                       | ((RADIO_PCNF1_WHITEEN_Enabled << RADIO_PCNF1_WHITEEN_Pos) & RADIO_PCNF1_WHITEEN_Msk);
+        NRF_RADIO->PCNF1       = 
+        (((RADIO_PCNF1_ENDIAN_Little)    << RADIO_PCNF1_ENDIAN_Pos)  & RADIO_PCNF1_ENDIAN_Msk)  |
+        (((3UL)                          << RADIO_PCNF1_BALEN_Pos)   & RADIO_PCNF1_BALEN_Msk)   |
+        (((0UL)                          << RADIO_PCNF1_STATLEN_Pos) & RADIO_PCNF1_STATLEN_Msk) |
+        ((((uint32_t)MAX_PACKET_SIZE)    << RADIO_PCNF1_MAXLEN_Pos)  & RADIO_PCNF1_MAXLEN_Msk)  |
+        ((RADIO_PCNF1_WHITEEN_Enabled    << RADIO_PCNF1_WHITEEN_Pos) & RADIO_PCNF1_WHITEEN_Msk);
     
     /* The CRC polynomial is fixed, and is set here. */
     /* The CRC initial value may change, and is set by */
     /* higher level modules as needed. */
-    NRF_RADIO->CRCPOLY = (uint32_t)CRC_POLYNOMIAL_INIT_SETTINGS;
-    NRF_RADIO->CRCCNF = (((RADIO_CRCCNF_SKIPADDR_Skip) << RADIO_CRCCNF_SKIPADDR_Pos) & RADIO_CRCCNF_SKIPADDR_Msk)
-                      | (((RADIO_CRCCNF_LEN_Three)      << RADIO_CRCCNF_LEN_Pos)       & RADIO_CRCCNF_LEN_Msk);
+    NRF_RADIO->CRCPOLY     = RADIO_CRCPOLY_24BIT;
+    NRF_RADIO->CRCCNF      = 
+        (((RADIO_CRCCNF_SKIPADDR_Skip) << RADIO_CRCCNF_SKIPADDR_Pos) & RADIO_CRCCNF_SKIPADDR_Msk) |
+        (((RADIO_CRCCNF_LEN_Three)     << RADIO_CRCCNF_LEN_Pos)      & RADIO_CRCCNF_LEN_Msk);
 
-    NRF_RADIO->RXADDRESSES  = ( (RADIO_RXADDRESSES_ADDR0_Enabled) << RADIO_RXADDRESSES_ADDR0_Pos);
+    NRF_RADIO->CRCINIT     = RADIO_CRCINIT_24BIT;
 
-    NRF_RADIO->MODE    = ((RADIO_MODE_MODE_Ble_1Mbit) << RADIO_MODE_MODE_Pos) & RADIO_MODE_MODE_Msk;
+    NRF_RADIO->TXADDRESS   = 0;
+    NRF_RADIO->RXADDRESSES = 1;
 
-    NRF_RADIO->TIFS = 150;
+    NRF_RADIO->MODE        = ((RADIO_MODE_MODE_Ble_1Mbit) << RADIO_MODE_MODE_Pos) & RADIO_MODE_MODE_Msk;
+    NRF_RADIO->TIFS        = INTERFRAM_SPACING;
+    NRF_RADIO->PREFIX0     = ((BLE_ACCESS_ADDR & 0xff000000) >> 24);
+    NRF_RADIO->BASE0       = ((BLE_ACCESS_ADDR & 0x00ffffff) << 8 );
 
-    NRF_RADIO->PREFIX0 = access_address[3];
-    NRF_RADIO->BASE0   = ( (((uint32_t)access_address[2]) << 24) 
-                         | (((uint32_t)access_address[1]) << 16)
-                         | (((uint32_t)access_address[0]) << 8) );
+    NRF_RADIO->SHORTS      = RADIO_SHORTS_PHYEND_DISABLE_Enabled << RADIO_SHORTS_PHYEND_DISABLE_Pos;
 
-    NRF_RADIO->CRCINIT = ((uint32_t)seed[0]) | ((uint32_t)seed[1])<<8 | ((uint32_t)seed[2])<<16;
-
-    NRF_RADIO->INTENSET = (RADIO_INTENSET_DISABLED_Enabled << RADIO_INTENSET_DISABLED_Pos);
 
 // Alternate radio configuration
 #else
