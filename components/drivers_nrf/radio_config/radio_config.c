@@ -217,10 +217,20 @@ void radio_configure_direction_finding_inline(void) {
 
 
 
+#define MAX_PACKET_SIZE (255)
 #define DD_MAX_PAYLOAD_LENGTH (31+6)
 #define CRC_POLYNOMIAL_INIT_SETTINGS  ((0x5B << 0) | (0x06 << 8) | (0x00 << 16))
 uint8_t access_address[4] = {0xD6, 0xBE, 0x89, 0x8E};
 uint8_t seed[3] = {0x55, 0x55, 0x55};
+
+
+#define RADIO_CRCINIT_24BIT       0x555555
+#define RADIO_CRCPOLY_24BIT       0x0000065B  /// ref: https://devzone.nordicsemi.com/f/nordic-q-a/44111/crc-register-values-for-a-24-bit-crc
+#define INTERFRAM_SPACING         (150)       // in us
+
+#define BLE_ACCESS_ADDR           0x8E89BED6  // the actual address is 0xD6, 0xBE, 0x89, 0x8E
+
+#define RADIO_TXPOWER             0 // in 2-compilant format
 
 /**@brief The default SHORTS configuration. */
 #define DEFAULT_RADIO_SHORTS                                             \
