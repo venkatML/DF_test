@@ -226,7 +226,7 @@ uint8_t seed[3] = {0x55, 0x55, 0x55};
 #define DEFAULT_RADIO_SHORTS                                             \
 (                                                                        \
     (RADIO_SHORTS_READY_START_Enabled << RADIO_SHORTS_READY_START_Pos) | \
-    (RADIO_SHORTS_END_DISABLE_Enabled << RADIO_SHORTS_END_DISABLE_Pos)   \
+    (RADIO_SHORTS_PHYEND_DISABLE_Enabled << RADIO_SHORTS_PHYEND_DISABLE_Pos)   \
 )
 
 void radio_configure()
