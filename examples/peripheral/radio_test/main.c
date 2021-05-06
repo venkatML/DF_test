@@ -117,7 +117,7 @@ app_dbg_t app_dbg;
 typedef struct {
                 uint8_t         flags;
                 app_state_t     state;
-                uint8_t         packet[LENGTH_PACKET];
+                uint32_t         packet[LENGTH_PACKET];
                 uint8_t         packet_len;
                 int8_t          rxpk_rssi;
                 uint8_t         rxpk_lqi;
@@ -357,7 +357,7 @@ int main(void)
     assemble_ibeacon_packet(); 
     // NRF_RADIO->FREQUENCY = 2UL; 
     // Set payload pointer
-    NRF_RADIO->PACKETPTR = (uint8_t)(&app_vars.packet[0]);
+    NRF_RADIO->PACKETPTR = (uint32_t)(&app_vars.packet[0]);
 
     NRF_LOG_INFO("Radio transmitter example started.");
     APP_ERROR_CHECK(err_code);
