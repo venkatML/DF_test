@@ -80,10 +80,20 @@
 #define NUM_SAMPLES     SAMPLE_MAXCNT
 #define LEN_UART_BUFFER ((NUM_SAMPLES*4)+8)
 
-#define ENABLE_DF       1
+#define ENABLE_DF  1
+#define IOSEA  1
 
 const static uint8_t ble_device_addr[6] = { 
     0x04, 0x04, 0x04, 0x04, 0x04, 0xc4
+};
+
+//Quuppa Tag_Id
+const static uint8_t Quuppa_tag_ID[6] = { 
+    0x55, 0x44, 0x33, 0x22, 0x11, 0x00
+};
+
+const static uint8_t Quuppa_DF_data[14] = { 
+    0x67, 0xF7, 0xDB, 0x34, 0xC4, 0x03, 0x8E, 0x5C, 0x0B, 0xAA, 0x97, 0x30, 0x56, 0xE6
 };
 
 // get from https://openuuid.net/signin/:  a24e7112-a03f-4623-bb56-ae67bd653c73
@@ -214,6 +224,60 @@ void assemble_IOSEA_packet(void) {
     app_vars.packet[i++]  = ble_device_addr[5]; // BLE adv address byte 5
 }
 
+void assemble_QUUPPA_packet(void) {
+
+    uint8_t i;
+    i=0;
+
+    memset( app_vars.packet, 0x00, sizeof(app_vars.packet) );
+
+    app_vars.packet[i++]  = 0x46;               // BLE ADV_SCAN_IND 
+    app_vars.packet[i++]  = 0x25;               // Payload length
+    app_vars.packet[i++]  = ble_device_addr[0]; // BLE adv address byte 0
+    app_vars.packet[i++]  = ble_device_addr[1]; // BLE adv address byte 1
+    app_vars.packet[i++]  = ble_device_addr[2]; // BLE adv address byte 2
+    app_vars.packet[i++]  = ble_device_addr[3]; // BLE adv address byte 3
+    app_vars.packet[i++]  = ble_device_addr[4]; // BLE adv address byte 4
+    app_vars.packet[i++]  = ble_device_addr[5]; // BLE adv address byte 5
+
+    app_vars.packet[i++]  = 0x02; // AD data length
+    app_vars.packet[i++]  = 0x01; // AD:Type Flag
+    app_vars.packet[i++]  = 0x00; // Flags Data
+    app_vars.packet[i++]  = 0x1B; // Advertisement payload/data length
+    app_vars.packet[i++]  = 0xFF; // Type - Manufacturer specific data
+    app_vars.packet[i++]  = 0xC7; // Company ID
+    app_vars.packet[i++]  = 0x00; // Company ID
+    app_vars.packet[i++]  = 0x01; // Quuppa packet ID
+
+//---- 
+// Device type, header and tag ID should be unique
+    app_vars.packet[i++]  = 0x20; // Device type identifier of a Quuppa Tag 
+    app_vars.packet[i++]  = 0x1E; // Header - Carries information of Tag’s TX rate -> (7-14hz), TX power -> 6 dbm and ID type -> Developer (10) 
+
+    app_vars.packet[i++]  = Quuppa_tag_ID[0]; // Quuppa Tag ID byte 0
+    app_vars.packet[i++]  = Quuppa_tag_ID[1]; // Quuppa Tag ID byte 1
+    app_vars.packet[i++]  = Quuppa_tag_ID[2]; // Quuppa Tag ID byte 2
+    app_vars.packet[i++]  = Quuppa_tag_ID[3]; // Quuppa Tag ID byte 3
+    app_vars.packet[i++]  = Quuppa_tag_ID[4]; // Quuppa Tag ID byte 4
+    app_vars.packet[i++]  = Quuppa_tag_ID[5]; // Quuppa Tag ID byte 5
+    app_vars.packet[i++]  = 0x94; // Checksum (CRC-8, polynomial 0x97) for byte 21-28
+//----
+    app_vars.packet[i++]  = Quuppa_DF_data[0]; // Quuppa DF_Field byte 0
+    app_vars.packet[i++]  = Quuppa_DF_data[1]; // Quuppa DF_Field byte 1
+    app_vars.packet[i++]  = Quuppa_DF_data[2]; // Quuppa DF_Field byte 2
+    app_vars.packet[i++]  = Quuppa_DF_data[3]; // Quuppa DF_Field byte 3
+    app_vars.packet[i++]  = Quuppa_DF_data[4]; // Quuppa DF_Field byte 4
+    app_vars.packet[i++]  = Quuppa_DF_data[5]; // Quuppa DF_Field byte 5
+    app_vars.packet[i++]  = Quuppa_DF_data[6]; // Quuppa DF_Field byte 6
+    app_vars.packet[i++]  = Quuppa_DF_data[7]; // Quuppa DF_Field byte 7
+    app_vars.packet[i++]  = Quuppa_DF_data[8]; // Quuppa DF_Field byte 8
+    app_vars.packet[i++]  = Quuppa_DF_data[9]; // Quuppa DF_Field byte 9
+    app_vars.packet[i++]  = Quuppa_DF_data[10]; // Quuppa DF_Field byte 10
+    app_vars.packet[i++]  = Quuppa_DF_data[11]; // Quuppa DF_Field byte 11
+    app_vars.packet[i++]  = Quuppa_DF_data[12]; // Quuppa DF_Field byte 11
+    app_vars.packet[i++]  = Quuppa_DF_data[13]; // Quuppa DF_Field byte 11
+
+}
 
 uint32_t ble_channel_to_frequency(uint8_t channel) {
 
@@ -323,10 +387,15 @@ int main(void)
     // enable the DF inline configuration
     radio_configure_direction_finding_inline();
 
-    // assemble the IOSEA packet
+#if IOSEA
+    // assemble the IOSEA DF packet
     assemble_IOSEA_packet(); 
+#else
+    // assemble the Quuppa DF packet
+    assemble_QUUPPA_packet(); 
+#endif
 
-    // Set payload pointer
+    // set payload pointer
     NRF_RADIO->PACKETPTR = (uint32_t)(&app_vars.packet[0]);
 
     NRF_LOG_INFO("Radio transmitter example started.");

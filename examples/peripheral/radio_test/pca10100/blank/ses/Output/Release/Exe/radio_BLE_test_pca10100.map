@@ -4104,6 +4104,8 @@ Discarded input sections
  .text          0x0000000000000000        0x0 Output/Release/Obj/radio_BLE_test_pca10100/main.o
  .data          0x0000000000000000        0x0 Output/Release/Obj/radio_BLE_test_pca10100/main.o
  .bss           0x0000000000000000        0x0 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .text.assemble_QUUPPA_packet
+                0x0000000000000000       0x70 Output/Release/Obj/radio_BLE_test_pca10100/main.o
  .bss.app_dbg   0x0000000000000000        0x3 Output/Release/Obj/radio_BLE_test_pca10100/main.o
  .debug_macro   0x0000000000000000      0xac6 Output/Release/Obj/radio_BLE_test_pca10100/main.o
  .debug_macro   0x0000000000000000      0x1a3 Output/Release/Obj/radio_BLE_test_pca10100/main.o
@@ -8969,7 +8971,7 @@ LOAD linker stubs
  .comment       0x0000000000000025       0x26 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
  .comment       0x0000000000000025       0x26 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
 
-.debug_line     0x0000000000000000    0x19fdf
+.debug_line     0x0000000000000000    0x1a04a
  .debug_line    0x0000000000000000      0x211 Output/Release/Obj/radio_BLE_test_pca10100/thumb_crt0.o
  .debug_line    0x0000000000000211      0x834 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
  .debug_line    0x0000000000000a45      0x62a Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_serial.o
@@ -8999,16 +9001,16 @@ LOAD linker stubs
  .debug_line    0x0000000000010fb8      0xef3 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
  .debug_line    0x0000000000011eab     0x1725 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
  .debug_line    0x00000000000135d0     0x16b3 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
- .debug_line    0x0000000000014c83      0xd85 Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_line    0x0000000000015a08     0x1454 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
- .debug_line    0x0000000000016e5c     0x13a9 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
- .debug_line    0x0000000000018205      0x5e2 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
- .debug_line    0x00000000000187e7     0x121f Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_line    0x0000000000019a06       0x71 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
- .debug_line    0x0000000000019a77       0x90 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
- .debug_line    0x0000000000019b07      0x4d8 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+ .debug_line    0x0000000000014c83      0xdf0 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_line    0x0000000000015a73     0x1454 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+ .debug_line    0x0000000000016ec7     0x13a9 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+ .debug_line    0x0000000000018270      0x5e2 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+ .debug_line    0x0000000000018852     0x121f Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_line    0x0000000000019a71       0x71 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
+ .debug_line    0x0000000000019ae2       0x90 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
+ .debug_line    0x0000000000019b72      0x4d8 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
-.debug_info     0x0000000000000000    0x30a12
+.debug_info     0x0000000000000000    0x30a9c
  .debug_info    0x0000000000000000       0x22 Output/Release/Obj/radio_BLE_test_pca10100/thumb_crt0.o
  .debug_info    0x0000000000000022      0x54b Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
  .debug_info    0x000000000000056d      0x77b Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_serial.o
@@ -9038,16 +9040,16 @@ LOAD linker stubs
  .debug_info    0x000000000001bbd7     0x1bd7 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
  .debug_info    0x000000000001d7ae     0x31dd Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
  .debug_info    0x000000000002098b     0x33a4 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
- .debug_info    0x0000000000023d2f     0x2bcb Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_info    0x00000000000268fa     0x37b7 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
- .debug_info    0x000000000002a0b1     0x376f Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
- .debug_info    0x000000000002d820      0x937 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
- .debug_info    0x000000000002e157     0x15fe Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_info    0x000000000002f755       0x23 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
- .debug_info    0x000000000002f778       0x23 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
- .debug_info    0x000000000002f79b     0x1277 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+ .debug_info    0x0000000000023d2f     0x2c55 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_info    0x0000000000026984     0x37b7 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+ .debug_info    0x000000000002a13b     0x376f Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+ .debug_info    0x000000000002d8aa      0x937 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+ .debug_info    0x000000000002e1e1     0x15fe Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_info    0x000000000002f7df       0x23 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
+ .debug_info    0x000000000002f802       0x23 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
+ .debug_info    0x000000000002f825     0x1277 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
-.debug_abbrev   0x0000000000000000     0x7200
+.debug_abbrev   0x0000000000000000     0x7224
  .debug_abbrev  0x0000000000000000       0x12 Output/Release/Obj/radio_BLE_test_pca10100/thumb_crt0.o
  .debug_abbrev  0x0000000000000012      0x274 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
  .debug_abbrev  0x0000000000000286      0x214 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_serial.o
@@ -9077,16 +9079,16 @@ LOAD linker stubs
  .debug_abbrev  0x0000000000004ea1      0x442 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
  .debug_abbrev  0x00000000000052e3      0x58d Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
  .debug_abbrev  0x0000000000005870      0x4fa Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
- .debug_abbrev  0x0000000000005d6a      0x446 Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_abbrev  0x00000000000061b0      0x4b1 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
- .debug_abbrev  0x0000000000006661      0x579 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
- .debug_abbrev  0x0000000000006bda      0x106 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
- .debug_abbrev  0x0000000000006ce0      0x2c3 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_abbrev  0x0000000000006fa3       0x14 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
- .debug_abbrev  0x0000000000006fb7       0x14 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
- .debug_abbrev  0x0000000000006fcb      0x235 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+ .debug_abbrev  0x0000000000005d6a      0x46a Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_abbrev  0x00000000000061d4      0x4b1 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+ .debug_abbrev  0x0000000000006685      0x579 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+ .debug_abbrev  0x0000000000006bfe      0x106 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+ .debug_abbrev  0x0000000000006d04      0x2c3 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_abbrev  0x0000000000006fc7       0x14 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
+ .debug_abbrev  0x0000000000006fdb       0x14 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
+ .debug_abbrev  0x0000000000006fef      0x235 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
-.debug_aranges  0x0000000000000000     0x1110
+.debug_aranges  0x0000000000000000     0x1118
  .debug_aranges
                 0x0000000000000000       0x98 Output/Release/Obj/radio_BLE_test_pca10100/thumb_crt0.o
  .debug_aranges
@@ -9146,23 +9148,23 @@ LOAD linker stubs
  .debug_aranges
                 0x0000000000000cb8       0x80 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
  .debug_aranges
-                0x0000000000000d38       0x40 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x0000000000000d38       0x48 Output/Release/Obj/radio_BLE_test_pca10100/main.o
  .debug_aranges
-                0x0000000000000d78      0x170 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000000d80      0x170 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .debug_aranges
-                0x0000000000000ee8       0x88 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                0x0000000000000ef0       0x88 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
  .debug_aranges
-                0x0000000000000f70       0x30 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+                0x0000000000000f78       0x30 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
  .debug_aranges
-                0x0000000000000fa0      0x108 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+                0x0000000000000fa8      0x108 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
  .debug_aranges
-                0x00000000000010a8       0x20 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
+                0x00000000000010b0       0x20 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
  .debug_aranges
-                0x00000000000010c8       0x20 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
+                0x00000000000010d0       0x20 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
  .debug_aranges
-                0x00000000000010e8       0x28 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+                0x00000000000010f0       0x28 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
-.debug_str      0x0000000000000000    0xa2218
+.debug_str      0x0000000000000000    0xa225a
  .debug_str     0x0000000000000000       0x8e Output/Release/Obj/radio_BLE_test_pca10100/thumb_crt0.o
  .debug_str     0x000000000000008e    0x8a7e2 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
                                       0x8b7cb (size before relaxing)
@@ -9220,24 +9222,24 @@ LOAD linker stubs
                                       0x8bbc9 (size before relaxing)
  .debug_str     0x000000000009c748      0xc94 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
                                       0x8c05e (size before relaxing)
- .debug_str     0x000000000009d3dc     0x22db Output/Release/Obj/radio_BLE_test_pca10100/main.o
-                                      0x9324a (size before relaxing)
- .debug_str     0x000000000009f6b7      0xde7 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+ .debug_str     0x000000000009d3dc     0x231d Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                                      0x9328c (size before relaxing)
+ .debug_str     0x000000000009f6f9      0xde7 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
                                       0x90187 (size before relaxing)
- .debug_str     0x00000000000a049e     0x1183 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+ .debug_str     0x00000000000a04e0     0x1183 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
                                       0x8ce12 (size before relaxing)
- .debug_str     0x00000000000a1621      0x3b1 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+ .debug_str     0x00000000000a1663      0x3b1 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
                                       0x87a71 (size before relaxing)
- .debug_str     0x00000000000a19d2      0x5a5 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_str     0x00000000000a1a14      0x5a5 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
                                       0x7d53f (size before relaxing)
- .debug_str     0x00000000000a1f77       0x33 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
+ .debug_str     0x00000000000a1fb9       0x33 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
                                          0x7e (size before relaxing)
- .debug_str     0x00000000000a1faa       0x35 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
+ .debug_str     0x00000000000a1fec       0x35 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
                                          0x80 (size before relaxing)
- .debug_str     0x00000000000a1fdf      0x239 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+ .debug_str     0x00000000000a2021      0x239 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
                                       0x7875d (size before relaxing)
 
-.debug_ranges   0x0000000000000000     0x3278
+.debug_ranges   0x0000000000000000     0x3280
  .debug_ranges  0x0000000000000000       0x90 Output/Release/Obj/radio_BLE_test_pca10100/thumb_crt0.o
  .debug_ranges  0x0000000000000090       0x70 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
  .debug_ranges  0x0000000000000100       0x28 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_serial.o
@@ -9267,14 +9269,14 @@ LOAD linker stubs
  .debug_ranges  0x0000000000001eb0      0x2e0 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
  .debug_ranges  0x0000000000002190      0x460 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
  .debug_ranges  0x00000000000025f0      0x3f0 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
- .debug_ranges  0x00000000000029e0       0x48 Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_ranges  0x0000000000002a28      0x378 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
- .debug_ranges  0x0000000000002da0      0x3a8 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
- .debug_ranges  0x0000000000003148       0x20 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
- .debug_ranges  0x0000000000003168       0xf8 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_ranges  0x0000000000003260       0x18 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+ .debug_ranges  0x00000000000029e0       0x50 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_ranges  0x0000000000002a30      0x378 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+ .debug_ranges  0x0000000000002da8      0x3a8 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+ .debug_ranges  0x0000000000003150       0x20 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+ .debug_ranges  0x0000000000003170       0xf8 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_ranges  0x0000000000003268       0x18 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
-.debug_frame    0x0000000000000000     0x37d8
+.debug_frame    0x0000000000000000     0x37f4
  .debug_frame   0x0000000000000000       0x88 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
  .debug_frame   0x0000000000000088       0x48 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_serial.o
  .debug_frame   0x00000000000000d0       0x2c Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_default_backends.o
@@ -9303,14 +9305,14 @@ LOAD linker stubs
  .debug_frame   0x0000000000002504      0x190 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
  .debug_frame   0x0000000000002694      0x240 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
  .debug_frame   0x00000000000028d4      0x190 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
- .debug_frame   0x0000000000002a64       0x90 Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_frame   0x0000000000002af4      0x5e4 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
- .debug_frame   0x00000000000030d8      0x264 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
- .debug_frame   0x000000000000333c       0x40 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
- .debug_frame   0x000000000000337c      0x42c Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_frame   0x00000000000037a8       0x30 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+ .debug_frame   0x0000000000002a64       0xac Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_frame   0x0000000000002b10      0x5e4 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+ .debug_frame   0x00000000000030f4      0x264 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+ .debug_frame   0x0000000000003358       0x40 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+ .debug_frame   0x0000000000003398      0x42c Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_frame   0x00000000000037c4       0x30 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
-.debug_loc      0x0000000000000000    0x15962
+.debug_loc      0x0000000000000000    0x15ba2
  .debug_loc     0x0000000000000000      0x1af Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
  .debug_loc     0x00000000000001af      0x186 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_serial.o
  .debug_loc     0x0000000000000335       0x31 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_default_backends.o
@@ -9339,14 +9341,14 @@ LOAD linker stubs
  .debug_loc     0x000000000000d447      0xb47 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
  .debug_loc     0x000000000000df8e     0x161c Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
  .debug_loc     0x000000000000f5aa     0x177d Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
- .debug_loc     0x0000000000010d27      0x26a Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_loc     0x0000000000010f91     0x236f Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
- .debug_loc     0x0000000000013300      0xe96 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
- .debug_loc     0x0000000000014196     0x1736 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_loc     0x00000000000158cc       0x96 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+ .debug_loc     0x0000000000010d27      0x4aa Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_loc     0x00000000000111d1     0x236f Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+ .debug_loc     0x0000000000013540      0xe96 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+ .debug_loc     0x00000000000143d6     0x1736 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_loc     0x0000000000015b0c       0x96 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
 .debug_pubnames
-                0x0000000000000000     0xc176
+                0x0000000000000000     0xc1b6
  .debug_pubnames
                 0x0000000000000000      0x12a Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
  .debug_pubnames
@@ -9404,17 +9406,17 @@ LOAD linker stubs
  .debug_pubnames
                 0x0000000000007714      0xd0f Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
  .debug_pubnames
-                0x0000000000008423      0xb0a Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x0000000000008423      0xb4a Output/Release/Obj/radio_BLE_test_pca10100/main.o
  .debug_pubnames
-                0x0000000000008f2d     0x117f Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000008f6d     0x117f Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .debug_pubnames
-                0x000000000000a0ac     0x1bb4 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                0x000000000000a0ec     0x1bb4 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
  .debug_pubnames
-                0x000000000000bc60       0x9c Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+                0x000000000000bca0       0x9c Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
  .debug_pubnames
-                0x000000000000bcfc      0x3c3 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+                0x000000000000bd3c      0x3c3 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
  .debug_pubnames
-                0x000000000000c0bf       0xb7 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+                0x000000000000c0ff       0xb7 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
 .debug_pubtypes
                 0x0000000000000000     0x5ee3
@@ -9487,7 +9489,7 @@ LOAD linker stubs
  .debug_pubtypes
                 0x0000000000005d4f      0x194 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
-.debug_macro    0x0000000000000000    0x1cc1a
+.debug_macro    0x0000000000000000    0x1cc20
  .debug_macro   0x0000000000000000      0x304 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
  .debug_macro   0x0000000000000304      0xac6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
  .debug_macro   0x0000000000000dca      0x1a3 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
@@ -9603,18 +9605,18 @@ LOAD linker stubs
  .debug_macro   0x000000000001b419      0x2c9 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
  .debug_macro   0x000000000001b6e2       0x22 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
  .debug_macro   0x000000000001b704      0x2e7 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
- .debug_macro   0x000000000001b9eb      0x45e Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_macro   0x000000000001be49       0x1e Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_macro   0x000000000001be67       0x4d Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_macro   0x000000000001beb4       0x16 Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_macro   0x000000000001beca       0x10 Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_macro   0x000000000001beda       0x1c Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_macro   0x000000000001bef6      0x340 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
- .debug_macro   0x000000000001c236       0x22 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
- .debug_macro   0x000000000001c258      0x2db Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
- .debug_macro   0x000000000001c533       0x16 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
- .debug_macro   0x000000000001c549      0x2ed Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
- .debug_macro   0x000000000001c836      0x19f Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_macro   0x000000000001c9d5       0x47 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_macro   0x000000000001ca1c      0x115 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_macro   0x000000000001cb31       0xe9 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+ .debug_macro   0x000000000001b9eb      0x464 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_macro   0x000000000001be4f       0x1e Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_macro   0x000000000001be6d       0x4d Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_macro   0x000000000001beba       0x16 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_macro   0x000000000001bed0       0x10 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_macro   0x000000000001bee0       0x1c Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_macro   0x000000000001befc      0x340 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+ .debug_macro   0x000000000001c23c       0x22 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+ .debug_macro   0x000000000001c25e      0x2db Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+ .debug_macro   0x000000000001c539       0x16 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+ .debug_macro   0x000000000001c54f      0x2ed Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+ .debug_macro   0x000000000001c83c      0x19f Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_macro   0x000000000001c9db       0x47 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_macro   0x000000000001ca22      0x115 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_macro   0x000000000001cb37       0xe9 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o

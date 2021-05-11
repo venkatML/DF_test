@@ -3,7 +3,6 @@
  <Bookmarks/>
  <Breakpoints groups="Breakpoints;V7M Exceptions" active_group="Breakpoints">
   <BreakpointListItem trigger="" line="1310" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="../config/sdk_config.h" useHWbreakpoint="false"/>
-  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
  </Breakpoints>
  <ExecutionProfileWindow/>
  <FrameBufferWindow>
@@ -30,8 +29,6 @@
   <ProjectSessionItem path="radio_test_pca10100;radio_BLE_test_pca10100"/>
   <ProjectSessionItem path="radio_test_pca10100;radio_BLE_test_pca10100;Application"/>
   <ProjectSessionItem path="radio_test_pca10100;radio_BLE_test_pca10100;Board Definition"/>
-  <ProjectSessionItem path="radio_test_pca10100;radio_BLE_test_pca10100;nRF_Drivers"/>
-  <ProjectSessionItem path="radio_test_pca10100;radio_BLE_test_pca10100;nRF_Log"/>
   <ProjectSessionItem path="radio_test_pca10100;radio_BLE_test_pca10100;Segger Startup Files"/>
  </Project>
  <Register1>
@@ -69,12 +66,14 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="44" y="358" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="350" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="709" useTextEdit="1" openedFrom="D:/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/radio_test/radio_cmd.c" useBinaryEdit="0" left="0" path="../../../radio_test.c" selected="0" top="490" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="11" y="394" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="260" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="32" y="538" useTextEdit="1" openedFrom="D:/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/radio_test/radio_cmd.c" useBinaryEdit="0" left="0" path="../../../radio_test.c" selected="0" top="532" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="90" useTextEdit="1" openedFrom="D:/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/radio_test/main.c" useBinaryEdit="0" left="0" path="../../../radio_cmd.c" selected="0" top="231" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1097" useTextEdit="1" openedFrom="D:/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/examples/peripheral/radio_test/radio_test.c" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/hal/nrf_radio.h" selected="0" top="1294" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="163" useTextEdit="1" openedFrom="D:/DF_test/examples/peripheral/radio_test/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/drivers_nrf/radio_config/radio_config.c" selected="0" top="150" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/drivers_nrf/radio_config/radio_config.h" selected="0" top="58" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="11" y="260" useTextEdit="1" openedFrom="D:/DF_test/examples/peripheral/radio_test/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/drivers_nrf/radio_config/radio_config.c" selected="0" top="234" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/drivers_nrf/radio_config/radio_config.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="10929" useTextEdit="1" openedFrom="D:/DF_test/components/drivers_nrf/radio_config/radio_config.c" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/nrf52833_bitfields.h" selected="0" top="10444" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="2709" useTextEdit="1" openedFrom="D:/DF_test/components/drivers_nrf/radio_config/radio_config.c" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/nrf52833.h" selected="0" top="2698" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="radio_BLE_test_pca10100" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="D:/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/components/drivers_nrf/radio_config" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>
