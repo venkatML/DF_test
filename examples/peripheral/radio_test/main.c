@@ -83,7 +83,7 @@
 #define ENABLE_DF       1
 
 const static uint8_t ble_device_addr[6] = { 
-    0xaa, 0xbb, 0xcc, 0xcc, 0xbb, 0xaa
+    0x04, 0x04, 0x04, 0x04, 0x04, 0xc4
 };
 
 // get from https://openuuid.net/signin/:  a24e7112-a03f-4623-bb56-ae67bd653c73
@@ -197,53 +197,23 @@ static uint32_t                   packet;                    /**< Packet to tran
 
 //=========================== private =========================================
 
-void assemble_ibeacon_packet(void) {
+void assemble_IOSEA_packet(void) {
 
     uint8_t i;
     i=0;
 
     memset( app_vars.packet, 0x00, sizeof(app_vars.packet) );
 
-    app_vars.packet[i++]  = 0x42;               // BLE ADV_NONCONN_IND (this is a must)
-    app_vars.packet[i++]  = 0x21;               // Payload length
+    app_vars.packet[i++]  = 0x46;               // BLE ADV_SCAN_IND 
+    app_vars.packet[i++]  = 0x06;               // Payload length
     app_vars.packet[i++]  = ble_device_addr[0]; // BLE adv address byte 0
     app_vars.packet[i++]  = ble_device_addr[1]; // BLE adv address byte 1
     app_vars.packet[i++]  = ble_device_addr[2]; // BLE adv address byte 2
     app_vars.packet[i++]  = ble_device_addr[3]; // BLE adv address byte 3
     app_vars.packet[i++]  = ble_device_addr[4]; // BLE adv address byte 4
     app_vars.packet[i++]  = ble_device_addr[5]; // BLE adv address byte 5
-
-    app_vars.packet[i++]  = 0x1a;
-    app_vars.packet[i++]  = 0xff;
-    app_vars.packet[i++]  = 0x4c;
-    app_vars.packet[i++]  = 0x00;
-
-    app_vars.packet[i++]  = 0x02;
-    app_vars.packet[i++]  = 0x15;
-    memcpy(&app_vars.packet[i], &ble_uuid[0], 16);
-    i                    += 16;
-    app_vars.packet[i++]  = 0x00;               // major
-    app_vars.packet[i++]  = 0xff;
-    app_vars.packet[i++]  = 0x00;               // minor
-    app_vars.packet[i++]  = 0x0f;
-    app_vars.packet[i++]  = TXPOWER;            // power level
 }
 
-/*
-void radio_loadPacket(uint8_t* packet, uint16_t len) {
-
-    radio_vars.state  = RADIOSTATE_LOADING_PACKET;
-
-    if ((len != 0) && (len <= MAX_PACKET_SIZE)) {
-        memcpy(&radio_vars.payload[0], packet, len);
-    }
-
-    // (re)set payload pointer
-    NRF_RADIO_NS->PACKETPTR = (uint32_t)(radio_vars.payload);
-
-    radio_vars.state  = RADIOSTATE_PACKET_LOADED;
-}
-*/
 
 uint32_t ble_channel_to_frequency(uint8_t channel) {
 
@@ -338,25 +308,24 @@ int main(void)
 
     clock_init();
 
-#if 0
-    radio_cmd_init();
-    cli_init();
-    cli_start();
-#else
     err_code = NRF_LOG_INIT(NULL);
     APP_ERROR_CHECK(err_code);
 
     NRF_LOG_DEFAULT_BACKENDS_INIT();
 
-    // err_code = bsp_init(BSP_INIT_LEDS | BSP_INIT_BUTTONS, bsp_evt_handler);
-    //APP_ERROR_CHECK(err_code);
-
+#if UI
+    err_code = bsp_init(BSP_INIT_LEDS | BSP_INIT_BUTTONS, bsp_evt_handler);
+    APP_ERROR_CHECK(err_code);
+#endif
     // Set radio configuration parameters
     radio_configure();
-#endif
 
-    assemble_ibeacon_packet(); 
-    // NRF_RADIO->FREQUENCY = 2UL; 
+    // enable the DF inline configuration
+    radio_configure_direction_finding_inline();
+
+    // assemble the IOSEA packet
+    assemble_IOSEA_packet(); 
+
     // Set payload pointer
     NRF_RADIO->PACKETPTR = (uint32_t)(&app_vars.packet[0]);
 
@@ -365,30 +334,17 @@ int main(void)
 
 while(1)
 {   
+    // Send the packet
     send_packet(37);
+    send_packet(38);
     NRF_LOG_FLUSH();
 
+#if PACKET_DELAY
     for (delay=0;delay<0xfffff;delay++);
-    // __WFE();
-}
-
-
+#endif
 
 }
 
-#if 0
-    while (true)
-    {
-#if defined(NRF21540_DRIVER_ENABLE) && (NRF21540_DRIVER_ENABLE == 1)
-        if (nrf21540_is_error())
-        {
-          //do something in case of nRF21540 error
-          while(1);
-        }
-#endif
-        UNUSED_RETURN_VALUE(NRF_LOG_PROCESS());
-        nrf_cli_process(&m_cli_uart);
-    }
-#endif
+}
 
 /** @} */

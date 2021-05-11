@@ -49,7 +49,7 @@ extern "C" {
 #define PACKET_PAYLOAD_MAXSIZE      (PACKET_STATIC_LENGTH)  //!< Packet payload maximum size in bytes
 
 void radio_configure(void);
-
+void radio_configure_direction_finding_inline(void);
 
 #ifdef __cplusplus
 }

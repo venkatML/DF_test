@@ -252,8 +252,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x7ca Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_uart.o
  .debug_macro   0x0000000000000000       0x16 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_uart.o
  .debug_macro   0x0000000000000000       0x55 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_uart.o
- .debug_line    0x0000000000000000      0x328 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_uart.o
- .debug_str     0x0000000000000000    0x83f2a Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_uart.o
+ .debug_line    0x0000000000000000      0x2e9 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_uart.o
+ .debug_str     0x0000000000000000    0x83ee4 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_uart.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_uart.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_uart.o
@@ -651,8 +651,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1c Output/Release/Obj/radio_BLE_test_pca10100/boards.o
  .debug_macro   0x0000000000000000      0x1df Output/Release/Obj/radio_BLE_test_pca10100/boards.o
  .debug_macro   0x0000000000000000      0x16d Output/Release/Obj/radio_BLE_test_pca10100/boards.o
- .debug_line    0x0000000000000000      0xb03 Output/Release/Obj/radio_BLE_test_pca10100/boards.o
- .debug_str     0x0000000000000000    0x8891a Output/Release/Obj/radio_BLE_test_pca10100/boards.o
+ .debug_line    0x0000000000000000      0xa9a Output/Release/Obj/radio_BLE_test_pca10100/boards.o
+ .debug_str     0x0000000000000000    0x888d4 Output/Release/Obj/radio_BLE_test_pca10100/boards.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/boards.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/boards.o
@@ -777,8 +777,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x55 Output/Release/Obj/radio_BLE_test_pca10100/app_error_handler_gcc.o
  .debug_macro   0x0000000000000000       0x72 Output/Release/Obj/radio_BLE_test_pca10100/app_error_handler_gcc.o
  .debug_macro   0x0000000000000000       0x49 Output/Release/Obj/radio_BLE_test_pca10100/app_error_handler_gcc.o
- .debug_line    0x0000000000000000      0x340 Output/Release/Obj/radio_BLE_test_pca10100/app_error_handler_gcc.o
- .debug_str     0x0000000000000000    0x84411 Output/Release/Obj/radio_BLE_test_pca10100/app_error_handler_gcc.o
+ .debug_line    0x0000000000000000      0x308 Output/Release/Obj/radio_BLE_test_pca10100/app_error_handler_gcc.o
+ .debug_str     0x0000000000000000    0x843cb Output/Release/Obj/radio_BLE_test_pca10100/app_error_handler_gcc.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/app_error_handler_gcc.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/app_error_handler_gcc.o
@@ -946,8 +946,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 Output/Release/Obj/radio_BLE_test_pca10100/app_fifo.o
  .debug_macro   0x0000000000000000       0x55 Output/Release/Obj/radio_BLE_test_pca10100/app_fifo.o
  .debug_macro   0x0000000000000000       0x22 Output/Release/Obj/radio_BLE_test_pca10100/app_fifo.o
- .debug_line    0x0000000000000000      0x6f7 Output/Release/Obj/radio_BLE_test_pca10100/app_fifo.o
- .debug_str     0x0000000000000000    0x840fc Output/Release/Obj/radio_BLE_test_pca10100/app_fifo.o
+ .debug_line    0x0000000000000000      0x6b8 Output/Release/Obj/radio_BLE_test_pca10100/app_fifo.o
+ .debug_str     0x0000000000000000    0x840b6 Output/Release/Obj/radio_BLE_test_pca10100/app_fifo.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/app_fifo.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/app_fifo.o
@@ -1048,8 +1048,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 Output/Release/Obj/radio_BLE_test_pca10100/app_scheduler.o
  .debug_macro   0x0000000000000000       0x22 Output/Release/Obj/radio_BLE_test_pca10100/app_scheduler.o
  .debug_macro   0x0000000000000000       0x8c Output/Release/Obj/radio_BLE_test_pca10100/app_scheduler.o
- .debug_line    0x0000000000000000      0x60f Output/Release/Obj/radio_BLE_test_pca10100/app_scheduler.o
- .debug_str     0x0000000000000000    0x84b9a Output/Release/Obj/radio_BLE_test_pca10100/app_scheduler.o
+ .debug_line    0x0000000000000000      0x5d0 Output/Release/Obj/radio_BLE_test_pca10100/app_scheduler.o
+ .debug_str     0x0000000000000000    0x84b54 Output/Release/Obj/radio_BLE_test_pca10100/app_scheduler.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/app_scheduler.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/app_scheduler.o
@@ -1299,8 +1299,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 Output/Release/Obj/radio_BLE_test_pca10100/app_uart_fifo.o
  .debug_macro   0x0000000000000000       0x10 Output/Release/Obj/radio_BLE_test_pca10100/app_uart_fifo.o
  .debug_macro   0x0000000000000000       0x3f Output/Release/Obj/radio_BLE_test_pca10100/app_uart_fifo.o
- .debug_line    0x0000000000000000      0xaa0 Output/Release/Obj/radio_BLE_test_pca10100/app_uart_fifo.o
- .debug_str     0x0000000000000000    0x88ed2 Output/Release/Obj/radio_BLE_test_pca10100/app_uart_fifo.o
+ .debug_line    0x0000000000000000      0xa29 Output/Release/Obj/radio_BLE_test_pca10100/app_uart_fifo.o
+ .debug_str     0x0000000000000000    0x88e8c Output/Release/Obj/radio_BLE_test_pca10100/app_uart_fifo.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/app_uart_fifo.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/app_uart_fifo.o
@@ -1499,8 +1499,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x89 Output/Release/Obj/radio_BLE_test_pca10100/fnmatch.o
  .debug_macro   0x0000000000000000       0x3a Output/Release/Obj/radio_BLE_test_pca10100/fnmatch.o
  .debug_macro   0x0000000000000000       0x10 Output/Release/Obj/radio_BLE_test_pca10100/fnmatch.o
- .debug_line    0x0000000000000000      0x3fa Output/Release/Obj/radio_BLE_test_pca10100/fnmatch.o
- .debug_str     0x0000000000000000     0x3041 Output/Release/Obj/radio_BLE_test_pca10100/fnmatch.o
+ .debug_line    0x0000000000000000      0x3d7 Output/Release/Obj/radio_BLE_test_pca10100/fnmatch.o
+ .debug_str     0x0000000000000000     0x2ffb Output/Release/Obj/radio_BLE_test_pca10100/fnmatch.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/fnmatch.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/fnmatch.o
@@ -1565,8 +1565,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xad Output/Release/Obj/radio_BLE_test_pca10100/nrf_assert.o
  .debug_macro   0x0000000000000000      0x16d Output/Release/Obj/radio_BLE_test_pca10100/nrf_assert.o
  .debug_macro   0x0000000000000000       0x49 Output/Release/Obj/radio_BLE_test_pca10100/nrf_assert.o
- .debug_line    0x0000000000000000      0x2d9 Output/Release/Obj/radio_BLE_test_pca10100/nrf_assert.o
- .debug_str     0x0000000000000000    0x798ef Output/Release/Obj/radio_BLE_test_pca10100/nrf_assert.o
+ .debug_line    0x0000000000000000      0x2a1 Output/Release/Obj/radio_BLE_test_pca10100/nrf_assert.o
+ .debug_str     0x0000000000000000    0x798a9 Output/Release/Obj/radio_BLE_test_pca10100/nrf_assert.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/nrf_assert.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/nrf_assert.o
@@ -2696,8 +2696,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x55 Output/Release/Obj/radio_BLE_test_pca10100/nrf_section_iter.o
  .debug_macro   0x0000000000000000       0x31 Output/Release/Obj/radio_BLE_test_pca10100/nrf_section_iter.o
  .debug_macro   0x0000000000000000       0x11 Output/Release/Obj/radio_BLE_test_pca10100/nrf_section_iter.o
- .debug_line    0x0000000000000000      0x3f1 Output/Release/Obj/radio_BLE_test_pca10100/nrf_section_iter.o
- .debug_str     0x0000000000000000    0x84454 Output/Release/Obj/radio_BLE_test_pca10100/nrf_section_iter.o
+ .debug_line    0x0000000000000000      0x3b2 Output/Release/Obj/radio_BLE_test_pca10100/nrf_section_iter.o
+ .debug_str     0x0000000000000000    0x8440e Output/Release/Obj/radio_BLE_test_pca10100/nrf_section_iter.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/nrf_section_iter.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/nrf_section_iter.o
@@ -2847,8 +2847,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x7ca Output/Release/Obj/radio_BLE_test_pca10100/nrf_strerror.o
  .debug_macro   0x0000000000000000       0x16 Output/Release/Obj/radio_BLE_test_pca10100/nrf_strerror.o
  .debug_macro   0x0000000000000000       0x55 Output/Release/Obj/radio_BLE_test_pca10100/nrf_strerror.o
- .debug_line    0x0000000000000000      0x3c5 Output/Release/Obj/radio_BLE_test_pca10100/nrf_strerror.o
- .debug_str     0x0000000000000000    0x8400f Output/Release/Obj/radio_BLE_test_pca10100/nrf_strerror.o
+ .debug_line    0x0000000000000000      0x386 Output/Release/Obj/radio_BLE_test_pca10100/nrf_strerror.o
+ .debug_str     0x0000000000000000    0x83fc9 Output/Release/Obj/radio_BLE_test_pca10100/nrf_strerror.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/nrf_strerror.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/nrf_strerror.o
@@ -2931,8 +2931,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x49 Output/Release/Obj/radio_BLE_test_pca10100/retarget.o
  .debug_macro   0x0000000000000000       0x8c Output/Release/Obj/radio_BLE_test_pca10100/retarget.o
  .debug_macro   0x0000000000000000       0x18 Output/Release/Obj/radio_BLE_test_pca10100/retarget.o
- .debug_line    0x0000000000000000      0x3ca Output/Release/Obj/radio_BLE_test_pca10100/retarget.o
- .debug_str     0x0000000000000000    0x849a6 Output/Release/Obj/radio_BLE_test_pca10100/retarget.o
+ .debug_line    0x0000000000000000      0x38b Output/Release/Obj/radio_BLE_test_pca10100/retarget.o
+ .debug_str     0x0000000000000000    0x84960 Output/Release/Obj/radio_BLE_test_pca10100/retarget.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/retarget.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/retarget.o
@@ -3163,8 +3163,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_uart.o
  .debug_macro   0x0000000000000000       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_uart.o
  .debug_macro   0x0000000000000000       0x3f Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_uart.o
- .debug_line    0x0000000000000000      0x676 Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_uart.o
- .debug_str     0x0000000000000000    0x885e6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_uart.o
+ .debug_line    0x0000000000000000      0x5e3 Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_uart.o
+ .debug_str     0x0000000000000000    0x885a0 Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_uart.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_uart.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_uart.o
@@ -3239,8 +3239,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000     0x1325 Output/Release/Obj/radio_BLE_test_pca10100/nrf_nvic.o
  .debug_macro   0x0000000000000000       0x40 Output/Release/Obj/radio_BLE_test_pca10100/nrf_nvic.o
  .debug_macro   0x0000000000000000       0x8e Output/Release/Obj/radio_BLE_test_pca10100/nrf_nvic.o
- .debug_line    0x0000000000000000      0x554 Output/Release/Obj/radio_BLE_test_pca10100/nrf_nvic.o
- .debug_str     0x0000000000000000    0x78db3 Output/Release/Obj/radio_BLE_test_pca10100/nrf_nvic.o
+ .debug_line    0x0000000000000000      0x523 Output/Release/Obj/radio_BLE_test_pca10100/nrf_nvic.o
+ .debug_str     0x0000000000000000    0x78d6d Output/Release/Obj/radio_BLE_test_pca10100/nrf_nvic.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/nrf_nvic.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/nrf_nvic.o
@@ -3294,8 +3294,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000     0x1325 Output/Release/Obj/radio_BLE_test_pca10100/nrf_soc.o
  .debug_macro   0x0000000000000000       0x40 Output/Release/Obj/radio_BLE_test_pca10100/nrf_soc.o
  .debug_macro   0x0000000000000000       0x8e Output/Release/Obj/radio_BLE_test_pca10100/nrf_soc.o
- .debug_line    0x0000000000000000      0x246 Output/Release/Obj/radio_BLE_test_pca10100/nrf_soc.o
- .debug_str     0x0000000000000000    0x78820 Output/Release/Obj/radio_BLE_test_pca10100/nrf_soc.o
+ .debug_line    0x0000000000000000      0x215 Output/Release/Obj/radio_BLE_test_pca10100/nrf_soc.o
+ .debug_str     0x0000000000000000    0x787da Output/Release/Obj/radio_BLE_test_pca10100/nrf_soc.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/nrf_soc.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/nrf_soc.o
@@ -3428,8 +3428,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x64 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_atomic.o
  .debug_macro   0x0000000000000000       0x20 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_atomic.o
  .debug_macro   0x0000000000000000       0x42 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_atomic.o
- .debug_line    0x0000000000000000      0x82c Output/Release/Obj/radio_BLE_test_pca10100/nrfx_atomic.o
- .debug_str     0x0000000000000000    0x878b8 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_atomic.o
+ .debug_line    0x0000000000000000      0x7ae Output/Release/Obj/radio_BLE_test_pca10100/nrfx_atomic.o
+ .debug_str     0x0000000000000000    0x87872 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_atomic.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_atomic.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_atomic.o
@@ -4432,8 +4432,6 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
  .text.radio_configure_direction_finding_manual
                 0x0000000000000000       0x24 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
- .text.radio_configure_direction_finding_inline
-                0x0000000000000000       0x28 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
  .debug_macro   0x0000000000000000      0xac6 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
  .debug_macro   0x0000000000000000       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
  .debug_macro   0x0000000000000000      0xa55 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
@@ -4577,7 +4575,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x49 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
  .debug_macro   0x0000000000000000       0x8c Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
  .debug_macro   0x0000000000000000      0xa55 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_macro   0x0000000000000000      0x115 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
  .group         0x0000000000000000        0xc Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_Syscalls_SES.o
  .group         0x0000000000000000        0xc Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_Syscalls_SES.o
  .text          0x0000000000000000        0x0 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_Syscalls_SES.o
@@ -4594,8 +4591,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1a Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_Syscalls_SES.o
  .debug_macro   0x0000000000000000      0xac6 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_Syscalls_SES.o
  .debug_macro   0x0000000000000000      0xa55 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_Syscalls_SES.o
- .debug_line    0x0000000000000000       0x96 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_Syscalls_SES.o
- .debug_str     0x0000000000000000     0x58de Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_Syscalls_SES.o
+ .debug_line    0x0000000000000000       0x73 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_Syscalls_SES.o
+ .debug_str     0x0000000000000000     0x5898 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_Syscalls_SES.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_Syscalls_SES.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_Syscalls_SES.o
@@ -4680,8 +4677,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x115 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_printf.o
  .debug_macro   0x0000000000000000       0x28 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_printf.o
  .debug_macro   0x0000000000000000       0x22 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_printf.o
- .debug_line    0x0000000000000000      0x863 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_printf.o
- .debug_str     0x0000000000000000    0x7d248 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_printf.o
+ .debug_line    0x0000000000000000      0x824 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_printf.o
+ .debug_str     0x0000000000000000    0x7d202 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_printf.o
  .comment       0x0000000000000000       0x26 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_printf.o
  .ARM.attributes
                 0x0000000000000000       0x39 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT_printf.o
@@ -7039,7 +7036,7 @@ Linker script and memory map
                 0x0000000000000001                . = ASSERT (((__init_rodata_start__ == __init_rodata_end__) || ((__init_rodata_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .init_rodata is too large to fit in FLASH memory segment)
                 0x00000000000003d0                __text_load_start__ = ALIGN (__init_rodata_end__, 0x4)
 
-.text           0x00000000000003d0     0x4780
+.text           0x00000000000003d0     0x478c
                 0x00000000000003d0                __text_start__ = .
  *(.text .text.* .glue_7t .glue_7 .gnu.linkonce.t.* .gcc_except_table .ARM.extab* .gnu.linkonce.armextab.*)
  .glue_7        0x00000000000003d0        0x0 linker stubs
@@ -7469,235 +7466,238 @@ Linker script and memory map
  .text.TIMER0_IRQHandler
                 0x0000000000003164       0x54 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
                 0x0000000000003164                TIMER0_IRQHandler
- .text.assemble_ibeacon_packet
-                0x00000000000031b8       0x50 Output/Release/Obj/radio_BLE_test_pca10100/main.o
-                0x00000000000031b8                assemble_ibeacon_packet
+ .text.assemble_IOSEA_packet
+                0x00000000000031b8       0x28 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x00000000000031b8                assemble_IOSEA_packet
  .text.ble_channel_to_frequency
-                0x0000000000003208       0x2a Output/Release/Obj/radio_BLE_test_pca10100/main.o
-                0x0000000000003208                ble_channel_to_frequency
- *fill*         0x0000000000003232        0x2 
+                0x00000000000031e0       0x2a Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x00000000000031e0                ble_channel_to_frequency
+ *fill*         0x000000000000320a        0x2 
  .text.radio_setFrequency
-                0x0000000000003234       0x18 Output/Release/Obj/radio_BLE_test_pca10100/main.o
-                0x0000000000003234                radio_setFrequency
+                0x000000000000320c       0x18 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x000000000000320c                radio_setFrequency
  .text.send_packet
-                0x000000000000324c       0x74 Output/Release/Obj/radio_BLE_test_pca10100/main.o
-                0x000000000000324c                send_packet
+                0x0000000000003224       0x74 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x0000000000003224                send_packet
  .text.startup.main
-                0x00000000000032c0       0xbc Output/Release/Obj/radio_BLE_test_pca10100/main.o
-                0x00000000000032c0                main
+                0x0000000000003298       0xc4 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x0000000000003298                main
  .text.cmd_ble_ieee
-                0x000000000000337c       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x000000000000335c       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_ble_lr500kbit
-                0x0000000000003398       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003378       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_ble_lr125kbit
-                0x00000000000033b4       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003394       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_ble_2mbit
-                0x00000000000033d0       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x00000000000033b0       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_ble_1mbit
-                0x00000000000033ec       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x00000000000033cc       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_nrf_2mbit
-                0x0000000000003408       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x00000000000033e8       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_nrf_1mbit
-                0x0000000000003424       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003404       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_neg40dbm
-                0x0000000000003440       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003420       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_neg30dbm
-                0x000000000000345c       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x000000000000343c       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_neg20dbm
-                0x0000000000003478       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003458       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_neg16dbm
-                0x0000000000003494       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003474       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_neg12dbm
-                0x00000000000034b0       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003490       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_neg8dbm
-                0x00000000000034cc       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x00000000000034ac       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_neg4dbm
-                0x00000000000034e8       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x00000000000034c8       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_pos0dbm
-                0x0000000000003504       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x00000000000034e4       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_pos4dbm
-                0x0000000000003520       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003500       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_pos3dbm
-                0x000000000000353c       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x000000000000351c       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_pos2dbm
-                0x0000000000003558       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003538       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_pos5dbm
-                0x0000000000003574       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003554       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_pos6dbm
-                0x0000000000003590       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003570       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_pos7dbm
-                0x00000000000035ac       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x000000000000358c       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_pos8dbm
-                0x00000000000035c8       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x00000000000035a8       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_pattern_11001100
-                0x00000000000035e4       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x00000000000035c4       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_pattern_11110000
-                0x0000000000003600       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x00000000000035e0       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_pattern_random
-                0x000000000000361c       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x00000000000035fc       0x1c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_data_rate_set
-                0x0000000000003638       0x44 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003618       0x44 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_transmit_pattern_set
-                0x000000000000367c        0x4 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x000000000000365c        0x4 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.ieee_channel_check
-                0x0000000000003680       0x4c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003660       0x4c Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_tx_carrier_start
-                0x00000000000036cc       0x70 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x00000000000036ac       0x70 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_tx_modulated_carrier_start
-                0x000000000000373c       0x94 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x000000000000371c       0x94 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_rx_start
-                0x00000000000037d0       0x68 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x00000000000037b0       0x68 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_output_power_set
-                0x0000000000003838       0x44 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003818       0x44 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_print
-                0x000000000000387c      0x1a8 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x000000000000385c      0x1a8 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_start_channel_set
-                0x0000000000003a24       0x68 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003a04       0x68 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_end_channel_set
-                0x0000000000003a8c       0x68 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003a6c       0x68 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_time_set
-                0x0000000000003af4       0x68 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003ad4       0x68 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_cancel
-                0x0000000000003b5c       0x16 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
- *fill*         0x0000000000003b72        0x2 
+                0x0000000000003b3c       0x16 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+ *fill*         0x0000000000003b52        0x2 
  .text.cmd_duty_cycle_set
-                0x0000000000003b74       0xa0 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003b54       0xa0 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_rx_sweep_start
-                0x0000000000003c14       0x68 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003bf4       0x68 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_tx_sweep_start
-                0x0000000000003c7c       0x68 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003c5c       0x68 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.tx_modulated_carrier_end
-                0x0000000000003ce4       0x30 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003cc4       0x30 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_toggle_dc
-                0x0000000000003d14       0x78 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003cf4       0x78 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.cmd_print_payload
-                0x0000000000003d8c       0x70 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000003d6c       0x70 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .text.nrf_radio_event_clear
-                0x0000000000003dfc       0x18 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                0x0000000000003ddc       0x18 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
  .text.radio_disable
-                0x0000000000003e14       0x38 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                0x0000000000003df4       0x38 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
  .text.radio_config
-                0x0000000000003e4c      0x15c Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                0x0000000000003e2c      0x15c Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
  .text.radio_sweep_start
-                0x0000000000003fa8       0x70 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                0x0000000000003f88       0x70 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
  .text.generate_modulated_rf_packet
-                0x0000000000004018       0x68 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                0x0000000000003ff8       0x68 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
  .text.radio_channel_set
-                0x0000000000004080       0x28 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                0x0000000000004060       0x28 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
  .text.radio_rx
-                0x00000000000040a8       0x58 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                0x0000000000004088       0x58 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
  .text.radio_test_start
-                0x0000000000004100      0x19c Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
-                0x0000000000004100                radio_test_start
+                0x00000000000040e0      0x19c Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                0x00000000000040e0                radio_test_start
  .text.radio_test_cancel
-                0x000000000000429c       0x14 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
-                0x000000000000429c                radio_test_cancel
+                0x000000000000427c       0x14 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                0x000000000000427c                radio_test_cancel
  .text.radio_rx_stats_get
-                0x00000000000042b0       0x30 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
-                0x00000000000042b0                radio_rx_stats_get
+                0x0000000000004290       0x30 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                0x0000000000004290                radio_rx_stats_get
  .text.toggle_dcdc_state
-                0x00000000000042e0        0xe Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
-                0x00000000000042e0                toggle_dcdc_state
- *fill*         0x00000000000042ee        0x2 
+                0x00000000000042c0        0xe Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                0x00000000000042c0                toggle_dcdc_state
+ *fill*         0x00000000000042ce        0x2 
  .text.RADIO_IRQHandler
-                0x00000000000042f0       0x58 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
-                0x00000000000042f0                RADIO_IRQHandler
+                0x00000000000042d0       0x58 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                0x00000000000042d0                RADIO_IRQHandler
+ .text.radio_configure_direction_finding_inline
+                0x0000000000004328       0x28 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+                0x0000000000004328                radio_configure_direction_finding_inline
  .text.radio_configure
-                0x0000000000004348       0x8c Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
-                0x0000000000004348                radio_configure
+                0x0000000000004350       0x90 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+                0x0000000000004350                radio_configure
  .text._GetAvailWriteSpace
-                0x00000000000043d4       0x12 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+                0x00000000000043e0       0x12 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
  .text._WriteNoCheck
-                0x00000000000043e6       0x38 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+                0x00000000000043f2       0x38 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
  .text._WriteBlocking
-                0x000000000000441e       0x52 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .text._DoInit  0x0000000000004470       0x60 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+                0x000000000000442a       0x52 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .text._DoInit  0x000000000000447c       0x60 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
  .text.SEGGER_RTT_WriteNoLock
-                0x00000000000044d0       0x60 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
-                0x00000000000044d0                SEGGER_RTT_WriteNoLock
+                0x00000000000044dc       0x60 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+                0x00000000000044dc                SEGGER_RTT_WriteNoLock
  .text.SEGGER_RTT_Init
-                0x0000000000004530        0x4 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
-                0x0000000000004530                SEGGER_RTT_Init
+                0x000000000000453c        0x4 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+                0x000000000000453c                SEGGER_RTT_Init
  .text.SystemInit
-                0x0000000000004534      0x160 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
-                0x0000000000004534                SystemInit
+                0x0000000000004540      0x160 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+                0x0000000000004540                SystemInit
  .text.libc.__RAL_ascii_isctype
-                0x0000000000004694       0x1c D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x00000000000046a0       0x1c D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
  .text.libc.__RAL_ascii_toupper
-                0x00000000000046b0        0xc D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
- .text.libc.__RAL_ascii_tolower
                 0x00000000000046bc        0xc D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+ .text.libc.__RAL_ascii_tolower
+                0x00000000000046c8        0xc D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
  .text.libc.__RAL_ascii_iswctype
-                0x00000000000046c8       0x1c D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x00000000000046d4       0x1c D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
  .text.libc.__RAL_ascii_towupper
-                0x00000000000046e4        0xc D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
- .text.libc.__RAL_ascii_towlower
                 0x00000000000046f0        0xc D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+ .text.libc.__RAL_ascii_towlower
+                0x00000000000046fc        0xc D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
  .text.libc.__RAL_ascii_wctomb
-                0x00000000000046fc        0xe D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x00000000000046fc                __RAL_ascii_wctomb
+                0x0000000000004708        0xe D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000004708                __RAL_ascii_wctomb
  .text.libc.__RAL_ascii_mbtowc
-                0x000000000000470a       0x24 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000470a                __RAL_ascii_mbtowc
- *fill*         0x000000000000472e        0x2 
+                0x0000000000004716       0x24 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000004716                __RAL_ascii_mbtowc
+ *fill*         0x000000000000473a        0x2 
  .text.libc.__RAL_isctype
-                0x0000000000004730       0x14 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x0000000000004730                __RAL_isctype
+                0x000000000000473c       0x14 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x000000000000473c                __RAL_isctype
  .text.libc.isupper
-                0x0000000000004744        0xa D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x0000000000004744                isupper
+                0x0000000000004750        0xa D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000004750                isupper
  .text.libc.islower
-                0x000000000000474e        0xa D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000474e                islower
+                0x000000000000475a        0xa D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x000000000000475a                islower
  .text.libc.isdigit
-                0x0000000000004758        0xa D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x0000000000004758                isdigit
+                0x0000000000004764        0xa D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000004764                isdigit
  .text.libc.__digit
-                0x0000000000004762       0x3c D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x0000000000004762                __digit
+                0x000000000000476e       0x3c D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x000000000000476e                __digit
  .text.libc.isspace
-                0x000000000000479e        0xa D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x000000000000479e                isspace
+                0x00000000000047aa        0xa D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x00000000000047aa                isspace
  .text.libc.isprint
-                0x00000000000047a8        0xa D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x00000000000047a8                isprint
- *fill*         0x00000000000047b2        0x2 
+                0x00000000000047b4        0xa D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x00000000000047b4                isprint
+ *fill*         0x00000000000047be        0x2 
  .text.libc.__aeabi_errno_addr
-                0x00000000000047b4       0x14 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x00000000000047b4                __aeabi_errno_addr
+                0x00000000000047c0       0x14 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x00000000000047c0                __aeabi_errno_addr
  .text.libc.__strtoul
-                0x00000000000047c8       0xdc D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x00000000000047c8                __strtoul
+                0x00000000000047d4       0xdc D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x00000000000047d4                __strtoul
  .text.libc.strncmp
-                0x00000000000048a4       0x3c D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x00000000000048a4                strncmp
+                0x00000000000048b0       0x3c D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x00000000000048b0                strncmp
  .text.libc.strtol
-                0x00000000000048e0       0xa6 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x00000000000048e0                strtol
+                0x00000000000048ec       0xa6 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x00000000000048ec                strtol
  .text.libc.atoi
-                0x0000000000004986       0x20 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x0000000000004986                atoi
+                0x0000000000004992       0x20 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0000000000004992                atoi
  .text.libc.memcpy
-                0x00000000000049a6       0x52 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
-                0x00000000000049a6                __aeabi_memcpy
-                0x00000000000049a6                memcpy
-                0x00000000000049b2                __aeabi_memcpy8
-                0x00000000000049b2                __aeabi_memcpy4
+                0x00000000000049b2       0x52 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
+                0x00000000000049b2                __aeabi_memcpy
+                0x00000000000049b2                memcpy
+                0x00000000000049be                __aeabi_memcpy8
+                0x00000000000049be                __aeabi_memcpy4
  .text.libc.memset
-                0x00000000000049f8       0x66 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
-                0x00000000000049f8                memset
+                0x0000000000004a04       0x66 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
+                0x0000000000004a04                memset
  .text.libc.strcpy
-                0x0000000000004a5e       0x44 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
-                0x0000000000004a5e                strcpy
+                0x0000000000004a6a       0x44 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
+                0x0000000000004a6a                strcpy
  .text.libc.strcmp
-                0x0000000000004aa2       0x4e D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
-                0x0000000000004aa2                strcmp
+                0x0000000000004aae       0x4e D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
+                0x0000000000004aae                strcmp
  .text.libc.strlen
-                0x0000000000004af0       0x60 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
-                0x0000000000004af0                strlen
-                0x0000000000004b50                __text_end__ = (__text_start__ + SIZEOF (.text))
-                0x0000000000004780                __text_size__ = SIZEOF (.text)
-                0x0000000000004b50                __text_load_end__ = __text_end__
+                0x0000000000004afc       0x60 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
+                0x0000000000004afc                strlen
+                0x0000000000004b5c                __text_end__ = (__text_start__ + SIZEOF (.text))
+                0x000000000000478c                __text_size__ = SIZEOF (.text)
+                0x0000000000004b5c                __text_load_end__ = __text_end__
 
 .vfp11_veneer   0x0000000100000000        0x0
  .vfp11_veneer  0x0000000100000000        0x0 linker stubs
@@ -7708,171 +7708,171 @@ Linker script and memory map
 .iplt           0x0000000100000000        0x0
  .iplt          0x0000000100000000        0x0 Output/Release/Obj/radio_BLE_test_pca10100/thumb_crt0.o
                 0x0000000000000001                . = ASSERT (((__text_start__ == __text_end__) || ((__text_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .text is too large to fit in FLASH memory segment)
-                0x0000000000004b50                __cli_command_load_start__ = ALIGN (__text_end__, 0x4)
+                0x0000000000004b5c                __cli_command_load_start__ = ALIGN (__text_end__, 0x4)
 
-.cli_command    0x0000000000004b50       0xb8
-                0x0000000000004b50                __cli_command_start__ = .
-                0x0000000000004b50                __start_cli_command = __cli_command_start__
+.cli_command    0x0000000000004b5c       0xb8
+                0x0000000000004b5c                __cli_command_start__ = .
+                0x0000000000004b5c                __start_cli_command = __cli_command_start__
  *(.cli_command*)
- .cli_command   0x0000000000004b50        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
-                0x0000000000004b50                nrf_cli_log_const
- .cli_command   0x0000000000004b58        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
-                0x0000000000004b58                nrf_cli_balloc_const
- .cli_command   0x0000000000004b60       0x20 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
-                0x0000000000004b60                nrf_cli_resize_const
-                0x0000000000004b68                nrf_cli_history_const
-                0x0000000000004b70                nrf_cli_cli_const
-                0x0000000000004b78                nrf_cli_clear_const
- .cli_command   0x0000000000004b80        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
-                0x0000000000004b80                nrf_cli_queue_const
- .cli_command   0x0000000000004b88       0x80 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
-                0x0000000000004b88                nrf_cli_print_rx_const
-                0x0000000000004b90                nrf_cli_toggle_dcdc_state_const
-                0x0000000000004b98                nrf_cli_start_rx_const
-                0x0000000000004ba0                nrf_cli_start_tx_sweep_const
-                0x0000000000004ba8                nrf_cli_start_rx_sweep_const
-                0x0000000000004bb0                nrf_cli_parameters_print_const
-                0x0000000000004bb8                nrf_cli_start_duty_cycle_modulated_tx_const
-                0x0000000000004bc0                nrf_cli_transmit_pattern_const
-                0x0000000000004bc8                nrf_cli_output_power_const
-                0x0000000000004bd0                nrf_cli_start_tx_modulated_carrier_const
-                0x0000000000004bd8                nrf_cli_start_tx_carrier_const
-                0x0000000000004be0                nrf_cli_data_rate_const
-                0x0000000000004be8                nrf_cli_cancel_const
-                0x0000000000004bf0                nrf_cli_time_on_channel_const
-                0x0000000000004bf8                nrf_cli_end_channel_const
-                0x0000000000004c00                nrf_cli_start_channel_const
-                0x0000000000004c08                __cli_command_end__ = (__cli_command_start__ + SIZEOF (.cli_command))
+ .cli_command   0x0000000000004b5c        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000004b5c                nrf_cli_log_const
+ .cli_command   0x0000000000004b64        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
+                0x0000000000004b64                nrf_cli_balloc_const
+ .cli_command   0x0000000000004b6c       0x20 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000004b6c                nrf_cli_resize_const
+                0x0000000000004b74                nrf_cli_history_const
+                0x0000000000004b7c                nrf_cli_cli_const
+                0x0000000000004b84                nrf_cli_clear_const
+ .cli_command   0x0000000000004b8c        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
+                0x0000000000004b8c                nrf_cli_queue_const
+ .cli_command   0x0000000000004b94       0x80 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000004b94                nrf_cli_print_rx_const
+                0x0000000000004b9c                nrf_cli_toggle_dcdc_state_const
+                0x0000000000004ba4                nrf_cli_start_rx_const
+                0x0000000000004bac                nrf_cli_start_tx_sweep_const
+                0x0000000000004bb4                nrf_cli_start_rx_sweep_const
+                0x0000000000004bbc                nrf_cli_parameters_print_const
+                0x0000000000004bc4                nrf_cli_start_duty_cycle_modulated_tx_const
+                0x0000000000004bcc                nrf_cli_transmit_pattern_const
+                0x0000000000004bd4                nrf_cli_output_power_const
+                0x0000000000004bdc                nrf_cli_start_tx_modulated_carrier_const
+                0x0000000000004be4                nrf_cli_start_tx_carrier_const
+                0x0000000000004bec                nrf_cli_data_rate_const
+                0x0000000000004bf4                nrf_cli_cancel_const
+                0x0000000000004bfc                nrf_cli_time_on_channel_const
+                0x0000000000004c04                nrf_cli_end_channel_const
+                0x0000000000004c0c                nrf_cli_start_channel_const
+                0x0000000000004c14                __cli_command_end__ = (__cli_command_start__ + SIZEOF (.cli_command))
                 0x00000000000000b8                __cli_command_size__ = SIZEOF (.cli_command)
-                0x0000000000004c08                __stop_cli_command = __cli_command_end__
-                0x0000000000004c08                __cli_command_load_end__ = __cli_command_end__
+                0x0000000000004c14                __stop_cli_command = __cli_command_end__
+                0x0000000000004c14                __cli_command_load_end__ = __cli_command_end__
                 0x0000000000000001                . = ASSERT (((__cli_command_start__ == __cli_command_end__) || ((__cli_command_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .cli_command is too large to fit in FLASH memory segment)
-                0x0000000000004c08                __pwr_mgmt_data_load_start__ = ALIGN (__cli_command_end__, 0x4)
+                0x0000000000004c14                __pwr_mgmt_data_load_start__ = ALIGN (__cli_command_end__, 0x4)
 
-.pwr_mgmt_data  0x0000000000004c08        0x0
-                0x0000000000004c08                __pwr_mgmt_data_start__ = .
-                0x0000000000004c08                __start_pwr_mgmt_data = __pwr_mgmt_data_start__
+.pwr_mgmt_data  0x0000000000004c14        0x0
+                0x0000000000004c14                __pwr_mgmt_data_start__ = .
+                0x0000000000004c14                __start_pwr_mgmt_data = __pwr_mgmt_data_start__
  *(SORT_BY_NAME(.pwr_mgmt_data*))
-                0x0000000000004c08                __pwr_mgmt_data_end__ = (__pwr_mgmt_data_start__ + SIZEOF (.pwr_mgmt_data))
+                0x0000000000004c14                __pwr_mgmt_data_end__ = (__pwr_mgmt_data_start__ + SIZEOF (.pwr_mgmt_data))
                 0x0000000000000000                __pwr_mgmt_data_size__ = SIZEOF (.pwr_mgmt_data)
-                0x0000000000004c08                __stop_pwr_mgmt_data = __pwr_mgmt_data_end__
-                0x0000000000004c08                __pwr_mgmt_data_load_end__ = __pwr_mgmt_data_end__
+                0x0000000000004c14                __stop_pwr_mgmt_data = __pwr_mgmt_data_end__
+                0x0000000000004c14                __pwr_mgmt_data_load_end__ = __pwr_mgmt_data_end__
                 0x0000000000000001                . = ASSERT (((__pwr_mgmt_data_start__ == __pwr_mgmt_data_end__) || ((__pwr_mgmt_data_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .pwr_mgmt_data is too large to fit in FLASH memory segment)
-                0x0000000000004c08                __nrf_queue_load_start__ = ALIGN (__pwr_mgmt_data_end__, 0x4)
+                0x0000000000004c14                __nrf_queue_load_start__ = ALIGN (__pwr_mgmt_data_end__, 0x4)
 
-.nrf_queue      0x0000000000004c08       0x1c
-                0x0000000000004c08                __nrf_queue_start__ = .
-                0x0000000000004c08                __start_nrf_queue = __nrf_queue_start__
+.nrf_queue      0x0000000000004c14       0x1c
+                0x0000000000004c14                __nrf_queue_start__ = .
+                0x0000000000004c14                __start_nrf_queue = __nrf_queue_start__
  *(.nrf_queue*)
- .nrf_queue     0x0000000000004c08       0x1c Output/Release/Obj/radio_BLE_test_pca10100/main.o
-                0x0000000000004c08                m_cli_uart_log_backend_queue
-                0x0000000000004c24                __nrf_queue_end__ = (__nrf_queue_start__ + SIZEOF (.nrf_queue))
+ .nrf_queue     0x0000000000004c14       0x1c Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x0000000000004c14                m_cli_uart_log_backend_queue
+                0x0000000000004c30                __nrf_queue_end__ = (__nrf_queue_start__ + SIZEOF (.nrf_queue))
                 0x000000000000001c                __nrf_queue_size__ = SIZEOF (.nrf_queue)
-                0x0000000000004c24                __stop_nrf_queue = __nrf_queue_end__
-                0x0000000000004c24                __nrf_queue_load_end__ = __nrf_queue_end__
+                0x0000000000004c30                __stop_nrf_queue = __nrf_queue_end__
+                0x0000000000004c30                __nrf_queue_load_end__ = __nrf_queue_end__
                 0x0000000000000001                . = ASSERT (((__nrf_queue_start__ == __nrf_queue_end__) || ((__nrf_queue_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .nrf_queue is too large to fit in FLASH memory segment)
-                0x0000000000004c24                __log_const_data_load_start__ = ALIGN (__nrf_queue_end__, 0x4)
+                0x0000000000004c30                __log_const_data_load_start__ = ALIGN (__nrf_queue_end__, 0x4)
 
 .log_const_data
-                0x0000000000004c24       0x80
-                0x0000000000004c24                __log_const_data_start__ = .
-                0x0000000000004c24                __start_log_const_data = __log_const_data_start__
+                0x0000000000004c30       0x80
+                0x0000000000004c30                __log_const_data_start__ = .
+                0x0000000000004c30                __start_log_const_data = __log_const_data_start__
  *(SORT_BY_NAME(.log_const_data*))
  .log_const_data_CLOCK
-                0x0000000000004c24        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_clock.o
-                0x0000000000004c24                m_nrf_log_CLOCK_logs_data_const
+                0x0000000000004c30        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_clock.o
+                0x0000000000004c30                m_nrf_log_CLOCK_logs_data_const
  .log_const_data_PRS
-                0x0000000000004c2c        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_prs.o
-                0x0000000000004c2c                m_nrf_log_PRS_logs_data_const
+                0x0000000000004c38        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_prs.o
+                0x0000000000004c38                m_nrf_log_PRS_logs_data_const
  .log_const_data_TIMER
-                0x0000000000004c34        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
-                0x0000000000004c34                m_nrf_log_TIMER_logs_data_const
+                0x0000000000004c40        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
+                0x0000000000004c40                m_nrf_log_TIMER_logs_data_const
  .log_const_data_UART
-                0x0000000000004c3c        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
-                0x0000000000004c3c                m_nrf_log_UART_logs_data_const
+                0x0000000000004c48        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
+                0x0000000000004c48                m_nrf_log_UART_logs_data_const
  .log_const_data_UARTE
-                0x0000000000004c44        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
-                0x0000000000004c44                m_nrf_log_UARTE_logs_data_const
+                0x0000000000004c50        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
+                0x0000000000004c50                m_nrf_log_UARTE_logs_data_const
  .log_const_data_app
-                0x0000000000004c4c        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
-                0x0000000000004c4c                m_nrf_log_app_logs_data_const
+                0x0000000000004c58        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000004c58                m_nrf_log_app_logs_data_const
  .log_const_data_app_timer
-                0x0000000000004c54        0x8 Output/Release/Obj/radio_BLE_test_pca10100/app_timer2.o
-                0x0000000000004c54                m_nrf_log_app_timer_logs_data_const
+                0x0000000000004c60        0x8 Output/Release/Obj/radio_BLE_test_pca10100/app_timer2.o
+                0x0000000000004c60                m_nrf_log_app_timer_logs_data_const
  .log_const_data_app_timer_m_cli_uart_transport_timer
-                0x0000000000004c5c        0x8 Output/Release/Obj/radio_BLE_test_pca10100/main.o
-                0x0000000000004c5c                m_nrf_log_app_timer_m_cli_uart_transport_timer_logs_data_const
+                0x0000000000004c68        0x8 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x0000000000004c68                m_nrf_log_app_timer_m_cli_uart_transport_timer_logs_data_const
  .log_const_data_atfifo_m_req_fifo
-                0x0000000000004c64        0x8 Output/Release/Obj/radio_BLE_test_pca10100/app_timer2.o
-                0x0000000000004c64                m_nrf_log_atfifo_m_req_fifo_logs_data_const
+                0x0000000000004c70        0x8 Output/Release/Obj/radio_BLE_test_pca10100/app_timer2.o
+                0x0000000000004c70                m_nrf_log_atfifo_m_req_fifo_logs_data_const
  .log_const_data_balloc_log_mempool
-                0x0000000000004c6c        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
-                0x0000000000004c6c                m_nrf_log_balloc_log_mempool_logs_data_const
+                0x0000000000004c78        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000004c78                m_nrf_log_balloc_log_mempool_logs_data_const
  .log_const_data_balloc_m_cli_uart_cmd_hist_memobj
-                0x0000000000004c74        0x8 Output/Release/Obj/radio_BLE_test_pca10100/main.o
-                0x0000000000004c74                m_nrf_log_balloc_m_cli_uart_cmd_hist_memobj_logs_data_const
+                0x0000000000004c80        0x8 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x0000000000004c80                m_nrf_log_balloc_m_cli_uart_cmd_hist_memobj_logs_data_const
  .log_const_data_cli_uart
-                0x0000000000004c7c        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli_uart.o
-                0x0000000000004c7c                m_nrf_log_cli_uart_logs_data_const
+                0x0000000000004c88        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli_uart.o
+                0x0000000000004c88                m_nrf_log_cli_uart_logs_data_const
  .log_const_data_clock
-                0x0000000000004c84        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_clock.o
-                0x0000000000004c84                m_nrf_log_clock_logs_data_const
+                0x0000000000004c90        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_clock.o
+                0x0000000000004c90                m_nrf_log_clock_logs_data_const
  .log_const_data_pwr_mgmt
-                0x0000000000004c8c        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_pwr_mgmt.o
-                0x0000000000004c8c                m_nrf_log_pwr_mgmt_logs_data_const
+                0x0000000000004c98        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_pwr_mgmt.o
+                0x0000000000004c98                m_nrf_log_pwr_mgmt_logs_data_const
  .log_const_data_queue_m_cli_uart_log_backend_queue
-                0x0000000000004c94        0x8 Output/Release/Obj/radio_BLE_test_pca10100/main.o
-                0x0000000000004c94                m_nrf_log_queue_m_cli_uart_log_backend_queue_logs_data_const
+                0x0000000000004ca0        0x8 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x0000000000004ca0                m_nrf_log_queue_m_cli_uart_log_backend_queue_logs_data_const
  .log_const_data_sortlist
-                0x0000000000004c9c        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_sortlist.o
-                0x0000000000004c9c                m_nrf_log_sortlist_logs_data_const
-                0x0000000000004ca4                __log_const_data_end__ = (__log_const_data_start__ + SIZEOF (.log_const_data))
+                0x0000000000004ca8        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_sortlist.o
+                0x0000000000004ca8                m_nrf_log_sortlist_logs_data_const
+                0x0000000000004cb0                __log_const_data_end__ = (__log_const_data_start__ + SIZEOF (.log_const_data))
                 0x0000000000000080                __log_const_data_size__ = SIZEOF (.log_const_data)
-                0x0000000000004ca4                __stop_log_const_data = __log_const_data_end__
-                0x0000000000004ca4                __log_const_data_load_end__ = __log_const_data_end__
+                0x0000000000004cb0                __stop_log_const_data = __log_const_data_end__
+                0x0000000000004cb0                __log_const_data_load_end__ = __log_const_data_end__
                 0x0000000000000001                . = ASSERT (((__log_const_data_start__ == __log_const_data_end__) || ((__log_const_data_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_const_data is too large to fit in FLASH memory segment)
-                0x0000000000004ca4                __log_backends_load_start__ = ALIGN (__log_const_data_end__, 0x4)
+                0x0000000000004cb0                __log_backends_load_start__ = ALIGN (__log_const_data_end__, 0x4)
 
-.log_backends   0x0000000000004ca4       0x20
-                0x0000000000004ca4                __log_backends_start__ = .
-                0x0000000000004ca4                __start_log_backends = __log_backends_start__
+.log_backends   0x0000000000004cb0       0x20
+                0x0000000000004cb0                __log_backends_start__ = .
+                0x0000000000004cb0                __start_log_backends = __log_backends_start__
  *(SORT_BY_NAME(.log_backends*))
- .log_backends  0x0000000000004ca4       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_default_backends.o
- .log_backends  0x0000000000004cb4       0x10 Output/Release/Obj/radio_BLE_test_pca10100/main.o
-                0x0000000000004cc4                __log_backends_end__ = (__log_backends_start__ + SIZEOF (.log_backends))
+ .log_backends  0x0000000000004cb0       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_default_backends.o
+ .log_backends  0x0000000000004cc0       0x10 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x0000000000004cd0                __log_backends_end__ = (__log_backends_start__ + SIZEOF (.log_backends))
                 0x0000000000000020                __log_backends_size__ = SIZEOF (.log_backends)
-                0x0000000000004cc4                __stop_log_backends = __log_backends_end__
-                0x0000000000004cc4                __log_backends_load_end__ = __log_backends_end__
+                0x0000000000004cd0                __stop_log_backends = __log_backends_end__
+                0x0000000000004cd0                __log_backends_load_end__ = __log_backends_end__
                 0x0000000000000001                . = ASSERT (((__log_backends_start__ == __log_backends_end__) || ((__log_backends_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_backends is too large to fit in FLASH memory segment)
-                0x0000000000004cc4                __nrf_balloc_load_start__ = ALIGN (__log_backends_end__, 0x4)
+                0x0000000000004cd0                __nrf_balloc_load_start__ = ALIGN (__log_backends_end__, 0x4)
 
-.nrf_balloc     0x0000000000004cc4       0x38
-                0x0000000000004cc4                __nrf_balloc_start__ = .
-                0x0000000000004cc4                __start_nrf_balloc = __nrf_balloc_start__
+.nrf_balloc     0x0000000000004cd0       0x38
+                0x0000000000004cd0                __nrf_balloc_start__ = .
+                0x0000000000004cd0                __start_nrf_balloc = __nrf_balloc_start__
  *(.nrf_balloc*)
- .nrf_balloc    0x0000000000004cc4       0x1c Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
-                0x0000000000004cc4                log_mempool
- .nrf_balloc    0x0000000000004ce0       0x1c Output/Release/Obj/radio_BLE_test_pca10100/main.o
-                0x0000000000004ce0                m_cli_uart_cmd_hist_memobj
-                0x0000000000004cfc                __nrf_balloc_end__ = (__nrf_balloc_start__ + SIZEOF (.nrf_balloc))
+ .nrf_balloc    0x0000000000004cd0       0x1c Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000004cd0                log_mempool
+ .nrf_balloc    0x0000000000004cec       0x1c Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x0000000000004cec                m_cli_uart_cmd_hist_memobj
+                0x0000000000004d08                __nrf_balloc_end__ = (__nrf_balloc_start__ + SIZEOF (.nrf_balloc))
                 0x0000000000000038                __nrf_balloc_size__ = SIZEOF (.nrf_balloc)
-                0x0000000000004cfc                __stop_nrf_balloc = __nrf_balloc_end__
-                0x0000000000004cfc                __nrf_balloc_load_end__ = __nrf_balloc_end__
+                0x0000000000004d08                __stop_nrf_balloc = __nrf_balloc_end__
+                0x0000000000004d08                __nrf_balloc_load_end__ = __nrf_balloc_end__
                 0x0000000000000001                . = ASSERT (((__nrf_balloc_start__ == __nrf_balloc_end__) || ((__nrf_balloc_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .nrf_balloc is too large to fit in FLASH memory segment)
-                0x0000000000004cfc                __nrf_sections_load_start__ = ALIGN (__nrf_balloc_end__, 0x4)
+                0x0000000000004d08                __nrf_sections_load_start__ = ALIGN (__nrf_balloc_end__, 0x4)
 
-.nrf_sections   0x0000000000004cfc        0x0
-                0x0000000000004cfc                __nrf_sections_start__ = .
-                0x0000000000004cfc                __start_nrf_sections = __nrf_sections_start__
+.nrf_sections   0x0000000000004d08        0x0
+                0x0000000000004d08                __nrf_sections_start__ = .
+                0x0000000000004d08                __start_nrf_sections = __nrf_sections_start__
  *(.nrf_sections .nrf_sections.*)
-                0x0000000000004cfc                __nrf_sections_end__ = (__nrf_sections_start__ + SIZEOF (.nrf_sections))
+                0x0000000000004d08                __nrf_sections_end__ = (__nrf_sections_start__ + SIZEOF (.nrf_sections))
                 0x0000000000000000                __nrf_sections_size__ = SIZEOF (.nrf_sections)
-                0x0000000000004cfc                __nrf_sections_load_end__ = __nrf_sections_end__
+                0x0000000000004d08                __nrf_sections_load_end__ = __nrf_sections_end__
                 0x0000000000000001                . = ASSERT (((__nrf_sections_start__ == __nrf_sections_end__) || ((__nrf_sections_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .nrf_sections is too large to fit in FLASH memory segment)
-                0x0000000000004cfc                __cli_sorted_cmd_ptrs_load_start__ = ALIGN (__nrf_sections_end__, 0x4)
+                0x0000000000004d08                __cli_sorted_cmd_ptrs_load_start__ = ALIGN (__nrf_sections_end__, 0x4)
 
 .cli_sorted_cmd_ptrs
-                0x0000000020000000       0x5c load address 0x0000000000004cfc
+                0x0000000020000000       0x5c load address 0x0000000000004d08
                 0x0000000020000000                __cli_sorted_cmd_ptrs_start__ = .
  *(.cli_sorted_cmd_ptrs*)
  .cli_sorted_cmd_ptrs
@@ -7910,11 +7910,11 @@ Linker script and memory map
                 0x0000000020000058                start_channel_str_ptr
                 0x000000002000005c                __cli_sorted_cmd_ptrs_end__ = (__cli_sorted_cmd_ptrs_start__ + SIZEOF (.cli_sorted_cmd_ptrs))
                 0x000000000000005c                __cli_sorted_cmd_ptrs_size__ = SIZEOF (.cli_sorted_cmd_ptrs)
-                0x0000000000004d58                __cli_sorted_cmd_ptrs_load_end__ = (__cli_sorted_cmd_ptrs_load_start__ + SIZEOF (.cli_sorted_cmd_ptrs))
+                0x0000000000004d64                __cli_sorted_cmd_ptrs_load_end__ = (__cli_sorted_cmd_ptrs_load_start__ + SIZEOF (.cli_sorted_cmd_ptrs))
                 0x0000000000000001                . = ASSERT (((__cli_sorted_cmd_ptrs_load_start__ == __cli_sorted_cmd_ptrs_load_end__) || ((__cli_sorted_cmd_ptrs_load_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .cli_sorted_cmd_ptrs is too large to fit in FLASH memory segment)
 
 .cli_sorted_cmd_ptrs_run
-                0x0000000020000000       0x5c load address 0x0000000000004cfc
+                0x0000000020000000       0x5c load address 0x0000000000004d08
                 0x0000000020000000                __cli_sorted_cmd_ptrs_run_start__ = .
                 0x0000000020000000                __start_cli_sorted_cmd_ptrs = __cli_sorted_cmd_ptrs_run_start__
                 0x000000002000005c                . = MAX ((__cli_sorted_cmd_ptrs_run_start__ + SIZEOF (.cli_sorted_cmd_ptrs)), .)
@@ -7924,10 +7924,10 @@ Linker script and memory map
                 0x000000002000005c                __stop_cli_sorted_cmd_ptrs = __cli_sorted_cmd_ptrs_run_end__
                 0x000000002000005c                __cli_sorted_cmd_ptrs_run_load_end__ = __cli_sorted_cmd_ptrs_run_end__
                 0x0000000000000001                . = ASSERT (((__cli_sorted_cmd_ptrs_run_start__ == __cli_sorted_cmd_ptrs_run_end__) || ((__cli_sorted_cmd_ptrs_run_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .cli_sorted_cmd_ptrs_run is too large to fit in RAM1 memory segment)
-                0x0000000000004d58                __log_dynamic_data_load_start__ = ALIGN ((__cli_sorted_cmd_ptrs_load_start__ + SIZEOF (.cli_sorted_cmd_ptrs)), 0x4)
+                0x0000000000004d64                __log_dynamic_data_load_start__ = ALIGN ((__cli_sorted_cmd_ptrs_load_start__ + SIZEOF (.cli_sorted_cmd_ptrs)), 0x4)
 
 .log_dynamic_data
-                0x000000002000005c       0x40 load address 0x0000000000004d58
+                0x000000002000005c       0x40 load address 0x0000000000004d64
                 0x000000002000005c                __log_dynamic_data_start__ = .
  *(SORT_BY_NAME(.log_dynamic_data*))
  .log_dynamic_data_CLOCK
@@ -7980,11 +7980,11 @@ Linker script and memory map
                 0x0000000020000098                m_nrf_log_sortlist_logs_data_dynamic
                 0x000000002000009c                __log_dynamic_data_end__ = (__log_dynamic_data_start__ + SIZEOF (.log_dynamic_data))
                 0x0000000000000040                __log_dynamic_data_size__ = SIZEOF (.log_dynamic_data)
-                0x0000000000004d98                __log_dynamic_data_load_end__ = (__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data))
+                0x0000000000004da4                __log_dynamic_data_load_end__ = (__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data))
                 0x0000000000000001                . = ASSERT (((__log_dynamic_data_load_start__ == __log_dynamic_data_load_end__) || ((__log_dynamic_data_load_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_dynamic_data is too large to fit in FLASH memory segment)
 
 .log_dynamic_data_run
-                0x000000002000005c       0x40 load address 0x0000000000004d58
+                0x000000002000005c       0x40 load address 0x0000000000004d64
                 0x000000002000005c                __log_dynamic_data_run_start__ = .
                 0x000000002000005c                __start_log_dynamic_data = __log_dynamic_data_run_start__
                 0x000000002000009c                . = MAX ((__log_dynamic_data_run_start__ + SIZEOF (.log_dynamic_data)), .)
@@ -7994,10 +7994,10 @@ Linker script and memory map
                 0x000000002000009c                __stop_log_dynamic_data = __log_dynamic_data_run_end__
                 0x000000002000009c                __log_dynamic_data_run_load_end__ = __log_dynamic_data_run_end__
                 0x0000000000000001                . = ASSERT (((__log_dynamic_data_run_start__ == __log_dynamic_data_run_end__) || ((__log_dynamic_data_run_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .log_dynamic_data_run is too large to fit in RAM1 memory segment)
-                0x0000000000004d98                __log_filter_data_load_start__ = ALIGN ((__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data)), 0x4)
+                0x0000000000004da4                __log_filter_data_load_start__ = ALIGN ((__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data)), 0x4)
 
 .log_filter_data
-                0x000000002000009c       0x40 load address 0x0000000000004d98
+                0x000000002000009c       0x40 load address 0x0000000000004da4
                 0x000000002000009c                __log_filter_data_start__ = .
  *(SORT_BY_NAME(.log_filter_data*))
  .log_filter_data_CLOCK
@@ -8050,11 +8050,11 @@ Linker script and memory map
                 0x00000000200000d8                m_nrf_log_sortlist_logs_data_filter
                 0x00000000200000dc                __log_filter_data_end__ = (__log_filter_data_start__ + SIZEOF (.log_filter_data))
                 0x0000000000000040                __log_filter_data_size__ = SIZEOF (.log_filter_data)
-                0x0000000000004dd8                __log_filter_data_load_end__ = (__log_filter_data_load_start__ + SIZEOF (.log_filter_data))
+                0x0000000000004de4                __log_filter_data_load_end__ = (__log_filter_data_load_start__ + SIZEOF (.log_filter_data))
                 0x0000000000000001                . = ASSERT (((__log_filter_data_load_start__ == __log_filter_data_load_end__) || ((__log_filter_data_load_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_filter_data is too large to fit in FLASH memory segment)
 
 .log_filter_data_run
-                0x000000002000009c       0x40 load address 0x0000000000004d98
+                0x000000002000009c       0x40 load address 0x0000000000004da4
                 0x000000002000009c                __log_filter_data_run_start__ = .
                 0x000000002000009c                __start_log_filter_data = __log_filter_data_run_start__
                 0x00000000200000dc                . = MAX ((__log_filter_data_run_start__ + SIZEOF (.log_filter_data)), .)
@@ -8075,271 +8075,269 @@ Linker script and memory map
                 0x0000000000000000                __nrf_sections_run_end_size__ = SIZEOF (.nrf_sections_run_end)
                 0x00000000200000dc                __nrf_sections_run_end_load_end__ = __nrf_sections_run_end_end__
                 0x0000000000000001                . = ASSERT (((__nrf_sections_run_end_start__ == __nrf_sections_run_end_end__) || ((__nrf_sections_run_end_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .nrf_sections_run_end is too large to fit in RAM1 memory segment)
-                0x0000000000004dd8                __dtors_load_start__ = ALIGN ((__log_filter_data_load_start__ + SIZEOF (.log_filter_data)), 0x4)
+                0x0000000000004de4                __dtors_load_start__ = ALIGN ((__log_filter_data_load_start__ + SIZEOF (.log_filter_data)), 0x4)
 
-.dtors          0x0000000000004dd8        0x0
-                0x0000000000004dd8                __dtors_start__ = .
+.dtors          0x0000000000004de4        0x0
+                0x0000000000004de4                __dtors_start__ = .
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.fini_array)
  *(SORT_BY_NAME(.fini_array.*))
-                0x0000000000004dd8                __dtors_end__ = (__dtors_start__ + SIZEOF (.dtors))
+                0x0000000000004de4                __dtors_end__ = (__dtors_start__ + SIZEOF (.dtors))
                 0x0000000000000000                __dtors_size__ = SIZEOF (.dtors)
-                0x0000000000004dd8                __dtors_load_end__ = __dtors_end__
+                0x0000000000004de4                __dtors_load_end__ = __dtors_end__
                 0x0000000000000001                . = ASSERT (((__dtors_start__ == __dtors_end__) || ((__dtors_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .dtors is too large to fit in FLASH memory segment)
-                0x0000000000004dd8                __ctors_load_start__ = ALIGN (__dtors_end__, 0x4)
+                0x0000000000004de4                __ctors_load_start__ = ALIGN (__dtors_end__, 0x4)
 
-.ctors          0x0000000000004dd8        0x0
-                0x0000000000004dd8                __ctors_start__ = .
+.ctors          0x0000000000004de4        0x0
+                0x0000000000004de4                __ctors_start__ = .
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
  *(.init_array)
  *(SORT_BY_NAME(.init_array.*))
-                0x0000000000004dd8                __ctors_end__ = (__ctors_start__ + SIZEOF (.ctors))
+                0x0000000000004de4                __ctors_end__ = (__ctors_start__ + SIZEOF (.ctors))
                 0x0000000000000000                __ctors_size__ = SIZEOF (.ctors)
-                0x0000000000004dd8                __ctors_load_end__ = __ctors_end__
+                0x0000000000004de4                __ctors_load_end__ = __ctors_end__
                 0x0000000000000001                . = ASSERT (((__ctors_start__ == __ctors_end__) || ((__ctors_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .ctors is too large to fit in FLASH memory segment)
-                0x0000000000004dd8                __rodata_load_start__ = ALIGN (__ctors_end__, 0x4)
+                0x0000000000004de4                __rodata_load_start__ = ALIGN (__ctors_end__, 0x4)
 
-.rodata         0x0000000000004dd8     0x2256
-                0x0000000000004dd8                __rodata_start__ = .
+.rodata         0x0000000000004de4     0x224a
+                0x0000000000004de4                __rodata_start__ = .
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- *fill*         0x0000000000004dd8        0x8 
+ *fill*         0x0000000000004de4        0xc 
  .rodata.delay_machine_code.0
-                0x0000000000004de0        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
- *fill*         0x0000000000004de6        0x2 
+                0x0000000000004df0        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
+ *fill*         0x0000000000004df6        0x2 
  .rodata.nrf_log_backend_rtt_api
-                0x0000000000004de8        0xc Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
-                0x0000000000004de8                nrf_log_backend_rtt_api
+                0x0000000000004df8        0xc Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
+                0x0000000000004df8                nrf_log_backend_rtt_api
  .rodata.str1.1
-                0x0000000000004df4       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_default_backends.o
+                0x0000000000004e04       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_default_backends.o
  .rodata.log_cmd_backends_list.str1.1
-                0x0000000000004e04       0x49 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000004e14       0x49 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
                                          0x51 (size before relaxing)
  .rodata.nrf_cli_backend_cmd_execute.str1.1
-                0x0000000000004e4d       0x16 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000004e5d       0x16 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.log_cmd.str1.1
-                0x0000000000004e63       0x1f Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000004e73       0x1f Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.log_config_load_cmd.str1.1
-                0x0000000000004e82       0x11 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000004e92       0x11 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.log_status.str1.1
-                0x0000000000004e93       0x92 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000004ea3       0x92 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
                                          0x93 (size before relaxing)
  .rodata.log_ctrl.str1.1
-                0x0000000000004f25       0x8f Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000004f35       0x8f Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.nrf_log_frontend_dequeue.str1.1
-                0x0000000000004fb4       0x11 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000004fc4       0x11 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.str1.1
-                0x0000000000004fc5      0x23f Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000004fd5      0x23f Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
                                         0x265 (size before relaxing)
  .rodata.m_backend_name_dynamic
-                0x0000000000005204        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000005214        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.m_log_push_ringbuf
-                0x000000000000520c        0xc Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x000000000000521c        0xc Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.m_module_name
-                0x0000000000005218        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000005228        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.m_severity_lvl
-                0x0000000000005220        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000005230        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.m_severity_lvls
-                0x0000000000005228       0x14 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000005238       0x14 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.m_severity_lvls_sorted
-                0x000000000000523c       0x14 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x000000000000524c       0x14 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.m_sub_log_backend
-                0x0000000000005250        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000005260        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.m_sub_log_backend_raw
-                0x0000000000005258       0x60 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000005268       0x60 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.m_sub_log_config
-                0x00000000000052b8        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x00000000000052c8        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.m_sub_log_config_raw
-                0x00000000000052c0       0x30 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x00000000000052d0       0x30 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.m_sub_log_stat
-                0x00000000000052f0        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000005300        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.m_sub_log_stat_raw
-                0x00000000000052f8       0x90 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000005308       0x90 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
  .rodata.nrf_cli_log_raw
-                0x0000000000005388       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
-                0x0000000000005388                nrf_cli_log_raw
+                0x0000000000005398       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                0x0000000000005398                nrf_cli_log_raw
  .rodata.prefix_process.str1.1
-                0x0000000000005398       0x2f Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
+                0x00000000000053a8       0x2f Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
                                          0x32 (size before relaxing)
  .rodata.postfix_process.str1.1
-                0x00000000000053c7       0x2f Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
+                0x00000000000053d7       0x2f Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
                                           0x3 (size before relaxing)
  .rodata.nrf_log_hexdump_entry_process.str1.1
-                0x00000000000053c7        0xf Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
+                0x00000000000053d7        0xf Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
                                          0x11 (size before relaxing)
  .rodata.str1.1
-                0x00000000000053d6       0x38 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
+                0x00000000000053e6       0x38 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
                                          0x51 (size before relaxing)
- *fill*         0x000000000000540e        0x2 
+ *fill*         0x000000000000541e        0x2 
  .rodata.m_colors
-                0x0000000000005410       0x24 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
+                0x0000000000005420       0x24 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
  .rodata.severity_names
-                0x0000000000005434       0x14 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
+                0x0000000000005444       0x14 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
  .rodata.app_error_fault_handler.str1.1
-                0x0000000000005448       0x19 Output/Release/Obj/radio_BLE_test_pca10100/app_error_weak.o
+                0x0000000000005458       0x19 Output/Release/Obj/radio_BLE_test_pca10100/app_error_weak.o
  .rodata.str1.1
-                0x0000000000005461       0x1c Output/Release/Obj/radio_BLE_test_pca10100/app_timer2.o
- *fill*         0x000000000000547d        0x1 
- .rodata        0x000000000000547e        0x4 Output/Release/Obj/radio_BLE_test_pca10100/app_timer2.o
- *fill*         0x0000000000005482        0x2 
+                0x0000000000005471       0x1c Output/Release/Obj/radio_BLE_test_pca10100/app_timer2.o
+ *fill*         0x000000000000548d        0x1 
+ .rodata        0x000000000000548e        0x4 Output/Release/Obj/radio_BLE_test_pca10100/app_timer2.o
+ *fill*         0x0000000000005492        0x2 
  .rodata.m_app_timer_sortlist
-                0x0000000000005484        0xc Output/Release/Obj/radio_BLE_test_pca10100/app_timer2.o
+                0x0000000000005494        0xc Output/Release/Obj/radio_BLE_test_pca10100/app_timer2.o
  .rodata.drv_rtc_init.str1.1
-                0x0000000000005490       0x34 Output/Release/Obj/radio_BLE_test_pca10100/drv_rtc.o
- *fill*         0x00000000000054c4        0xc 
+                0x00000000000054a0       0x34 Output/Release/Obj/radio_BLE_test_pca10100/drv_rtc.o
+ *fill*         0x00000000000054d4        0xc 
  .rodata.delay_machine_code.0
-                0x00000000000054d0        0x6 Output/Release/Obj/radio_BLE_test_pca10100/drv_rtc.o
+                0x00000000000054e0        0x6 Output/Release/Obj/radio_BLE_test_pca10100/drv_rtc.o
  .rodata.nrf_balloc_status.str1.1
-                0x00000000000054d6       0xa1 Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
+                0x00000000000054e6       0xa1 Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
  .rodata.str1.1
-                0x0000000000005577       0x48 Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
+                0x0000000000005587       0x48 Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
                                          0x4f (size before relaxing)
- *fill*         0x00000000000055bf        0x1 
+ *fill*         0x00000000000055cf        0x1 
  .rodata.nrf_balloc_commands
-                0x00000000000055c0        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
+                0x00000000000055d0        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
  .rodata.nrf_balloc_commands_raw
-                0x00000000000055c8       0x20 Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
+                0x00000000000055d8       0x20 Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
  .rodata.nrf_cli_balloc_raw
-                0x00000000000055e8       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
-                0x00000000000055e8                nrf_cli_balloc_raw
+                0x00000000000055f8       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
+                0x00000000000055f8                nrf_cli_balloc_raw
  .rodata.vt100_color_set.part.0.str1.1
-                0x00000000000055f8        0x3 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005608        0x3 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.cursor_right_move.part.0.isra.0.str1.1
-                0x00000000000055f8        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005608        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.cursor_next_line_move.isra.0.str1.1
-                0x00000000000055fe        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x000000000000560e        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
                                           0x2 (size before relaxing)
  .rodata.cursor_up_move.str1.1
-                0x00000000000055fe        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x000000000000560e        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.cursor_left_move.str1.1
-                0x0000000000005604        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005614        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.cursor_end_position_move.str1.1
-                0x000000000000560a        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x000000000000561a        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.char_insert.str1.1
-                0x0000000000005610        0x3 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005620        0x3 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.cli_log_entry_process.str1.1
-                0x0000000000005610       0x2e Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005620       0x2e Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.nrf_cli_process.str1.1
-                0x000000000000563e       0x86 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x000000000000564e       0x86 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
                                          0x8f (size before relaxing)
  .rodata.nrf_cli_help_print.str1.1
-                0x00000000000056c4       0x3c Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x00000000000056d4       0x3c Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
                                          0x41 (size before relaxing)
  .rodata.nrf_cli_build_in_cmd_common_executed.constprop.0.str1.1
-                0x0000000000005700       0x1b Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005710       0x1b Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.nrf_cli_cmd_colors.str1.1
-                0x000000000000571b        0x9 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x000000000000572b        0x9 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
                                          0x1e (size before relaxing)
  .rodata.nrf_cli_cmd_resize.str1.1
-                0x0000000000005724       0x3a Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005734       0x3a Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.nrf_cli_cmd_history.str1.1
-                0x000000000000575e        0xa Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x000000000000576e        0xa Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.nrf_cli_cmd_echo.str1.1
-                0x0000000000005768       0x15 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005778       0x15 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
                                          0x18 (size before relaxing)
  .rodata.nrf_cli_cmd_cli_stats_show.str1.1
-                0x000000000000577d       0x37 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x000000000000578d       0x37 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.str1.1
-                0x00000000000057b4      0x289 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x00000000000057c4      0x289 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
                                         0x28f (size before relaxing)
- .rodata.cmd.0  0x0000000000005a3d        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+ .rodata.cmd.0  0x0000000000005a4d        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.cmd.10
-                0x0000000000005a43        0x4 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005a53        0x4 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.cmd.14
-                0x0000000000005a47        0x4 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
- .rodata.cmd.3  0x0000000000005a4b        0x5 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
- .rodata.cmd.4  0x0000000000005a50        0x4 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005a57        0x4 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+ .rodata.cmd.3  0x0000000000005a5b        0x5 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+ .rodata.cmd.4  0x0000000000005a60        0x4 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.cmd_get_terminal_size.2
-                0x0000000000005a54        0x5 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005a64        0x5 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.cmd_sep.5
-                0x0000000000005a59        0x4 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
- *fill*         0x0000000000005a5d        0x3 
+                0x0000000000005a69        0x4 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+ *fill*         0x0000000000005a6d        0x3 
  .rodata.delay_machine_code.1
-                0x0000000000005a60        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005a70        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.help.7
-                0x0000000000005a66        0xb Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
- *fill*         0x0000000000005a71        0x3 
+                0x0000000000005a76        0xb Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+ *fill*         0x0000000000005a81        0x3 
  .rodata.m_sub_cli
-                0x0000000000005a74        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005a84        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.m_sub_cli_raw
-                0x0000000000005a7c       0x40 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005a8c       0x40 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.m_sub_cli_stats
-                0x0000000000005abc        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005acc        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.m_sub_cli_stats_raw
-                0x0000000000005ac4       0x30 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005ad4       0x30 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.m_sub_colors
-                0x0000000000005af4        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005b04        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.m_sub_colors_raw
-                0x0000000000005afc       0x30 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005b0c       0x30 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.m_sub_echo
-                0x0000000000005b2c        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005b3c        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.m_sub_echo_raw
-                0x0000000000005b34       0x30 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005b44       0x30 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.m_sub_resize
-                0x0000000000005b64        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005b74        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.m_sub_resize_raw
-                0x0000000000005b6c       0x20 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005b7c       0x20 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.nrf_cli_clear_raw
-                0x0000000000005b8c       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
-                0x0000000000005b8c                nrf_cli_clear_raw
- .rodata.nrf_cli_cli_raw
                 0x0000000000005b9c       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
-                0x0000000000005b9c                nrf_cli_cli_raw
- .rodata.nrf_cli_history_raw
+                0x0000000000005b9c                nrf_cli_clear_raw
+ .rodata.nrf_cli_cli_raw
                 0x0000000000005bac       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
-                0x0000000000005bac                nrf_cli_history_raw
- .rodata.nrf_cli_resize_raw
+                0x0000000000005bac                nrf_cli_cli_raw
+ .rodata.nrf_cli_history_raw
                 0x0000000000005bbc       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
-                0x0000000000005bbc                nrf_cli_resize_raw
+                0x0000000000005bbc                nrf_cli_history_raw
+ .rodata.nrf_cli_resize_raw
+                0x0000000000005bcc       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005bcc                nrf_cli_resize_raw
  .rodata.nrf_log_backend_cli_api
-                0x0000000000005bcc        0xc Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
-                0x0000000000005bcc                nrf_log_backend_cli_api
+                0x0000000000005bdc        0xc Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005bdc                nrf_log_backend_cli_api
  .rodata.opt_sep.6
-                0x0000000000005bd8        0x3 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                0x0000000000005be8        0x3 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
  .rodata.str1.1
-                0x0000000000005bdb        0x9 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli_uart.o
+                0x0000000000005beb        0x9 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli_uart.o
  .rodata._aV2C.0
-                0x0000000000005be4       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_fprintf_format.o
+                0x0000000000005bf4       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_fprintf_format.o
  .rodata.str1.1
-                0x0000000000005bf4        0x9 Output/Release/Obj/radio_BLE_test_pca10100/nrf_pwr_mgmt.o
+                0x0000000000005c04        0x9 Output/Release/Obj/radio_BLE_test_pca10100/nrf_pwr_mgmt.o
  .rodata.nrf_queue_status.str1.1
-                0x0000000000005bfd       0x91 Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
+                0x0000000000005c0d       0x91 Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
                                          0xa4 (size before relaxing)
  .rodata.str1.1
-                0x0000000000005c8e       0x21 Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
+                0x0000000000005c9e       0x21 Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
                                          0x4d (size before relaxing)
- *fill*         0x0000000000005caf        0x1 
+ *fill*         0x0000000000005cbf        0x1 
  .rodata.nrf_cli_queue_raw
-                0x0000000000005cb0       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
-                0x0000000000005cb0                nrf_cli_queue_raw
+                0x0000000000005cc0       0x10 Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
+                0x0000000000005cc0                nrf_cli_queue_raw
  .rodata.nrf_queue_commands
-                0x0000000000005cc0        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
+                0x0000000000005cd0        0x8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
  .rodata.nrf_queue_commands_raw
-                0x0000000000005cc8       0x20 Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
+                0x0000000000005cd8       0x20 Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
  .rodata.str1.1
-                0x0000000000005ce8        0x9 Output/Release/Obj/radio_BLE_test_pca10100/nrf_sortlist.o
+                0x0000000000005cf8        0x9 Output/Release/Obj/radio_BLE_test_pca10100/nrf_sortlist.o
  .rodata.str1.1
-                0x0000000000005cf1        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_clock.o
+                0x0000000000005d01        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_clock.o
  .rodata.str1.1
-                0x0000000000005cf7        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_clock.o
+                0x0000000000005d07        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_clock.o
  .rodata.str1.1
-                0x0000000000005cfd        0x4 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_prs.o
+                0x0000000000005d0d        0x4 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_prs.o
  .rodata.str1.1
-                0x0000000000005d01        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
+                0x0000000000005d11        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
  .rodata.str1.1
-                0x0000000000005d07        0x5 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
+                0x0000000000005d17        0x5 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
  .rodata.str1.1
-                0x0000000000005d0c        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
+                0x0000000000005d1c        0x6 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
  .rodata.send_packet.str1.1
-                0x0000000000005d12       0x14 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x0000000000005d22       0x14 Output/Release/Obj/radio_BLE_test_pca10100/main.o
  .rodata.main.str1.1
-                0x0000000000005d26       0x23 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x0000000000005d36       0x23 Output/Release/Obj/radio_BLE_test_pca10100/main.o
  .rodata.str1.1
-                0x0000000000005d49       0x81 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x0000000000005d59       0x81 Output/Release/Obj/radio_BLE_test_pca10100/main.o
                                          0xb9 (size before relaxing)
- .rodata.ble_uuid
-                0x0000000000005dca       0x10 Output/Release/Obj/radio_BLE_test_pca10100/main.o
  .rodata.cmd_ble_ieee.str1.1
                 0x0000000000005dda       0x32 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .rodata.cmd_ble_lr500kbit.str1.1
@@ -8545,7 +8543,7 @@ Linker script and memory map
                 0x000000000000702c        0x2 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
                 0x000000000000702c                __RAL_data_utf8_period
                 0x000000000000702e                __rodata_end__ = (__rodata_start__ + SIZEOF (.rodata))
-                0x0000000000002256                __rodata_size__ = SIZEOF (.rodata)
+                0x000000000000224a                __rodata_size__ = SIZEOF (.rodata)
                 0x000000000000702e                __rodata_load_end__ = __rodata_end__
 
 .rel.dyn        0x0000000000007030        0x0
@@ -8971,46 +8969,46 @@ LOAD linker stubs
  .comment       0x0000000000000025       0x26 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
  .comment       0x0000000000000025       0x26 D:/ncs/v1.5.1/toolchain/segger_embedded_studio/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
 
-.debug_line     0x0000000000000000    0x1b099
+.debug_line     0x0000000000000000    0x19fdf
  .debug_line    0x0000000000000000      0x211 Output/Release/Obj/radio_BLE_test_pca10100/thumb_crt0.o
- .debug_line    0x0000000000000211      0x8e1 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
- .debug_line    0x0000000000000af2      0x6bb Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_serial.o
- .debug_line    0x00000000000011ad      0x5ac Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_default_backends.o
- .debug_line    0x0000000000001759     0x1cf0 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
- .debug_line    0x0000000000003449      0x7c2 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
- .debug_line    0x0000000000003c0b      0x3af Output/Release/Obj/radio_BLE_test_pca10100/app_error.o
- .debug_line    0x0000000000003fba      0x6dd Output/Release/Obj/radio_BLE_test_pca10100/app_error_weak.o
- .debug_line    0x0000000000004697      0xd43 Output/Release/Obj/radio_BLE_test_pca10100/app_timer2.o
- .debug_line    0x00000000000053da      0x43d Output/Release/Obj/radio_BLE_test_pca10100/app_util_platform.o
- .debug_line    0x0000000000005817     0x1180 Output/Release/Obj/radio_BLE_test_pca10100/drv_rtc.o
- .debug_line    0x0000000000006997      0x76a Output/Release/Obj/radio_BLE_test_pca10100/nrf_atfifo.o
- .debug_line    0x0000000000007101      0x693 Output/Release/Obj/radio_BLE_test_pca10100/nrf_atomic.o
- .debug_line    0x0000000000007794      0x99e Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
- .debug_line    0x0000000000008132     0x3304 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
- .debug_line    0x000000000000b436      0xeaf Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli_uart.o
- .debug_line    0x000000000000c2e5      0x3cf Output/Release/Obj/radio_BLE_test_pca10100/nrf_fprintf.o
- .debug_line    0x000000000000c6b4      0x831 Output/Release/Obj/radio_BLE_test_pca10100/nrf_fprintf_format.o
- .debug_line    0x000000000000cee5      0x7ec Output/Release/Obj/radio_BLE_test_pca10100/nrf_memobj.o
- .debug_line    0x000000000000d6d1      0xb4b Output/Release/Obj/radio_BLE_test_pca10100/nrf_pwr_mgmt.o
- .debug_line    0x000000000000e21c      0xe84 Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
- .debug_line    0x000000000000f0a0      0x75c Output/Release/Obj/radio_BLE_test_pca10100/nrf_ringbuf.o
- .debug_line    0x000000000000f7fc      0x5cb Output/Release/Obj/radio_BLE_test_pca10100/nrf_sortlist.o
- .debug_line    0x000000000000fdc7      0xb7c Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_clock.o
- .debug_line    0x0000000000010943      0xbe6 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_clock.o
- .debug_line    0x0000000000011529      0x72a Output/Release/Obj/radio_BLE_test_pca10100/nrfx_prs.o
- .debug_line    0x0000000000011c53      0xf7f Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
- .debug_line    0x0000000000012bd2     0x17d4 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
- .debug_line    0x00000000000143a6     0x1762 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
- .debug_line    0x0000000000015b08      0xdd5 Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_line    0x00000000000168dd     0x14fc Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
- .debug_line    0x0000000000017dd9     0x1435 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
- .debug_line    0x000000000001920e      0x5e4 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
- .debug_line    0x00000000000197f2     0x125e Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_line    0x000000000001aa50       0x94 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
- .debug_line    0x000000000001aae4       0xb3 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
- .debug_line    0x000000000001ab97      0x502 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+ .debug_line    0x0000000000000211      0x834 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
+ .debug_line    0x0000000000000a45      0x62a Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_serial.o
+ .debug_line    0x000000000000106f      0x522 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_default_backends.o
+ .debug_line    0x0000000000001591     0x1c3c Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+ .debug_line    0x00000000000031cd      0x731 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
+ .debug_line    0x00000000000038fe      0x377 Output/Release/Obj/radio_BLE_test_pca10100/app_error.o
+ .debug_line    0x0000000000003c75      0x63c Output/Release/Obj/radio_BLE_test_pca10100/app_error_weak.o
+ .debug_line    0x00000000000042b1      0xca9 Output/Release/Obj/radio_BLE_test_pca10100/app_timer2.o
+ .debug_line    0x0000000000004f5a      0x405 Output/Release/Obj/radio_BLE_test_pca10100/app_util_platform.o
+ .debug_line    0x000000000000535f     0x10c7 Output/Release/Obj/radio_BLE_test_pca10100/drv_rtc.o
+ .debug_line    0x0000000000006426      0x70f Output/Release/Obj/radio_BLE_test_pca10100/nrf_atfifo.o
+ .debug_line    0x0000000000006b35      0x654 Output/Release/Obj/radio_BLE_test_pca10100/nrf_atomic.o
+ .debug_line    0x0000000000007189      0x8f9 Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
+ .debug_line    0x0000000000007a82     0x325c Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+ .debug_line    0x000000000000acde      0xde4 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli_uart.o
+ .debug_line    0x000000000000bac2      0x390 Output/Release/Obj/radio_BLE_test_pca10100/nrf_fprintf.o
+ .debug_line    0x000000000000be52      0x7f2 Output/Release/Obj/radio_BLE_test_pca10100/nrf_fprintf_format.o
+ .debug_line    0x000000000000c644      0x791 Output/Release/Obj/radio_BLE_test_pca10100/nrf_memobj.o
+ .debug_line    0x000000000000cdd5      0xaaa Output/Release/Obj/radio_BLE_test_pca10100/nrf_pwr_mgmt.o
+ .debug_line    0x000000000000d87f      0xde0 Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
+ .debug_line    0x000000000000e65f      0x716 Output/Release/Obj/radio_BLE_test_pca10100/nrf_ringbuf.o
+ .debug_line    0x000000000000ed75      0x570 Output/Release/Obj/radio_BLE_test_pca10100/nrf_sortlist.o
+ .debug_line    0x000000000000f2e5      0xacd Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_clock.o
+ .debug_line    0x000000000000fdb2      0xb5a Output/Release/Obj/radio_BLE_test_pca10100/nrfx_clock.o
+ .debug_line    0x000000000001090c      0x6ac Output/Release/Obj/radio_BLE_test_pca10100/nrfx_prs.o
+ .debug_line    0x0000000000010fb8      0xef3 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
+ .debug_line    0x0000000000011eab     0x1725 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
+ .debug_line    0x00000000000135d0     0x16b3 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
+ .debug_line    0x0000000000014c83      0xd85 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_line    0x0000000000015a08     0x1454 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+ .debug_line    0x0000000000016e5c     0x13a9 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+ .debug_line    0x0000000000018205      0x5e2 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+ .debug_line    0x00000000000187e7     0x121f Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_line    0x0000000000019a06       0x71 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
+ .debug_line    0x0000000000019a77       0x90 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
+ .debug_line    0x0000000000019b07      0x4d8 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
-.debug_info     0x0000000000000000    0x30a01
+.debug_info     0x0000000000000000    0x30a12
  .debug_info    0x0000000000000000       0x22 Output/Release/Obj/radio_BLE_test_pca10100/thumb_crt0.o
  .debug_info    0x0000000000000022      0x54b Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
  .debug_info    0x000000000000056d      0x77b Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_serial.o
@@ -9040,16 +9038,16 @@ LOAD linker stubs
  .debug_info    0x000000000001bbd7     0x1bd7 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
  .debug_info    0x000000000001d7ae     0x31dd Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
  .debug_info    0x000000000002098b     0x33a4 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
- .debug_info    0x0000000000023d2f     0x2bba Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_info    0x00000000000268e9     0x37b7 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
- .debug_info    0x000000000002a0a0     0x376f Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
- .debug_info    0x000000000002d80f      0x937 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
- .debug_info    0x000000000002e146     0x15fe Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_info    0x000000000002f744       0x23 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
- .debug_info    0x000000000002f767       0x23 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
- .debug_info    0x000000000002f78a     0x1277 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+ .debug_info    0x0000000000023d2f     0x2bcb Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_info    0x00000000000268fa     0x37b7 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+ .debug_info    0x000000000002a0b1     0x376f Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+ .debug_info    0x000000000002d820      0x937 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+ .debug_info    0x000000000002e157     0x15fe Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_info    0x000000000002f755       0x23 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
+ .debug_info    0x000000000002f778       0x23 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
+ .debug_info    0x000000000002f79b     0x1277 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
-.debug_abbrev   0x0000000000000000     0x7204
+.debug_abbrev   0x0000000000000000     0x7200
  .debug_abbrev  0x0000000000000000       0x12 Output/Release/Obj/radio_BLE_test_pca10100/thumb_crt0.o
  .debug_abbrev  0x0000000000000012      0x274 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
  .debug_abbrev  0x0000000000000286      0x214 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_serial.o
@@ -9079,14 +9077,14 @@ LOAD linker stubs
  .debug_abbrev  0x0000000000004ea1      0x442 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
  .debug_abbrev  0x00000000000052e3      0x58d Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
  .debug_abbrev  0x0000000000005870      0x4fa Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
- .debug_abbrev  0x0000000000005d6a      0x44a Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_abbrev  0x00000000000061b4      0x4b1 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
- .debug_abbrev  0x0000000000006665      0x579 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
- .debug_abbrev  0x0000000000006bde      0x106 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
- .debug_abbrev  0x0000000000006ce4      0x2c3 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_abbrev  0x0000000000006fa7       0x14 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
- .debug_abbrev  0x0000000000006fbb       0x14 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
- .debug_abbrev  0x0000000000006fcf      0x235 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+ .debug_abbrev  0x0000000000005d6a      0x446 Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_abbrev  0x00000000000061b0      0x4b1 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+ .debug_abbrev  0x0000000000006661      0x579 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+ .debug_abbrev  0x0000000000006bda      0x106 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+ .debug_abbrev  0x0000000000006ce0      0x2c3 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_abbrev  0x0000000000006fa3       0x14 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
+ .debug_abbrev  0x0000000000006fb7       0x14 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
+ .debug_abbrev  0x0000000000006fcb      0x235 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
 .debug_aranges  0x0000000000000000     0x1110
  .debug_aranges
@@ -9164,80 +9162,80 @@ LOAD linker stubs
  .debug_aranges
                 0x00000000000010e8       0x28 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
-.debug_str      0x0000000000000000    0xa267e
- .debug_str     0x0000000000000000       0xb1 Output/Release/Obj/radio_BLE_test_pca10100/thumb_crt0.o
- .debug_str     0x00000000000000b1    0x8a805 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
-                                      0x8b811 (size before relaxing)
- .debug_str     0x000000000008a8b6      0x2eb Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_serial.o
-                                      0x8822e (size before relaxing)
- .debug_str     0x000000000008aba1      0x137 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_default_backends.o
-                                      0x87fca (size before relaxing)
- .debug_str     0x000000000008acd8     0x51b0 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
-                                      0x8d464 (size before relaxing)
- .debug_str     0x000000000008fe88      0x2f5 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
-                                      0x882de (size before relaxing)
- .debug_str     0x000000000009017d      0x154 Output/Release/Obj/radio_BLE_test_pca10100/app_error.o
-                                      0x798db (size before relaxing)
- .debug_str     0x00000000000902d1       0xde Output/Release/Obj/radio_BLE_test_pca10100/app_error_weak.o
-                                      0x886f7 (size before relaxing)
- .debug_str     0x00000000000903af     0x17fc Output/Release/Obj/radio_BLE_test_pca10100/app_timer2.o
-                                      0x8bab0 (size before relaxing)
- .debug_str     0x0000000000091bab      0x206 Output/Release/Obj/radio_BLE_test_pca10100/app_util_platform.o
-                                      0x7a11b (size before relaxing)
- .debug_str     0x0000000000091db1      0x763 Output/Release/Obj/radio_BLE_test_pca10100/drv_rtc.o
-                                      0x8b387 (size before relaxing)
- .debug_str     0x0000000000092514      0x178 Output/Release/Obj/radio_BLE_test_pca10100/nrf_atfifo.o
-                                      0x86fe3 (size before relaxing)
- .debug_str     0x000000000009268c      0x6d5 Output/Release/Obj/radio_BLE_test_pca10100/nrf_atomic.o
-                                      0x8464a (size before relaxing)
- .debug_str     0x0000000000092d61      0x250 Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
-                                      0x8c3c9 (size before relaxing)
- .debug_str     0x0000000000092fb1     0x3ce1 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
-                                      0x92ae0 (size before relaxing)
- .debug_str     0x0000000000096c92     0x15d0 Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli_uart.o
-                                      0x908be (size before relaxing)
- .debug_str     0x0000000000098262       0x4d Output/Release/Obj/radio_BLE_test_pca10100/nrf_fprintf.o
-                                      0x841db (size before relaxing)
- .debug_str     0x00000000000982af      0x520 Output/Release/Obj/radio_BLE_test_pca10100/nrf_fprintf_format.o
-                                      0x846d5 (size before relaxing)
- .debug_str     0x00000000000987cf      0x18f Output/Release/Obj/radio_BLE_test_pca10100/nrf_memobj.o
-                                      0x8637c (size before relaxing)
- .debug_str     0x000000000009895e      0xbf7 Output/Release/Obj/radio_BLE_test_pca10100/nrf_pwr_mgmt.o
-                                      0x8c920 (size before relaxing)
- .debug_str     0x0000000000099555      0x271 Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
-                                      0x8c56e (size before relaxing)
- .debug_str     0x00000000000997c6       0xb7 Output/Release/Obj/radio_BLE_test_pca10100/nrf_ringbuf.o
-                                      0x84a19 (size before relaxing)
- .debug_str     0x000000000009987d      0x105 Output/Release/Obj/radio_BLE_test_pca10100/nrf_sortlist.o
-                                      0x86d2a (size before relaxing)
- .debug_str     0x0000000000099982      0xa4e Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_clock.o
-                                      0x8aca8 (size before relaxing)
- .debug_str     0x000000000009a3d0      0x78c Output/Release/Obj/radio_BLE_test_pca10100/nrfx_clock.o
-                                      0x8b282 (size before relaxing)
- .debug_str     0x000000000009ab5c      0x381 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_prs.o
-                                      0x8aa1b (size before relaxing)
- .debug_str     0x000000000009aedd     0x1143 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
-                                      0x8bb46 (size before relaxing)
- .debug_str     0x000000000009c020      0xafc Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
-                                      0x8bc0f (size before relaxing)
- .debug_str     0x000000000009cb1c      0xcb7 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
-                                      0x8c0a4 (size before relaxing)
- .debug_str     0x000000000009d7d3     0x22eb Output/Release/Obj/radio_BLE_test_pca10100/main.o
-                                      0x93224 (size before relaxing)
- .debug_str     0x000000000009fabe      0xe0a Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
-                                      0x901cd (size before relaxing)
- .debug_str     0x00000000000a08c8     0x11a6 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
-                                      0x8ce58 (size before relaxing)
- .debug_str     0x00000000000a1a6e      0x33e Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
-                                      0x879d5 (size before relaxing)
- .debug_str     0x00000000000a1dac      0x5c8 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
-                                      0x7d585 (size before relaxing)
- .debug_str     0x00000000000a2374       0x56 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
-                                         0xc4 (size before relaxing)
- .debug_str     0x00000000000a23ca       0x58 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
-                                         0xc6 (size before relaxing)
- .debug_str     0x00000000000a2422      0x25c Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
-                                      0x787a3 (size before relaxing)
+.debug_str      0x0000000000000000    0xa2218
+ .debug_str     0x0000000000000000       0x8e Output/Release/Obj/radio_BLE_test_pca10100/thumb_crt0.o
+ .debug_str     0x000000000000008e    0x8a7e2 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
+                                      0x8b7cb (size before relaxing)
+ .debug_str     0x000000000008a870      0x2c8 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_serial.o
+                                      0x881e8 (size before relaxing)
+ .debug_str     0x000000000008ab38      0x114 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_default_backends.o
+                                      0x87f84 (size before relaxing)
+ .debug_str     0x000000000008ac4c     0x518d Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_frontend.o
+                                      0x8d41e (size before relaxing)
+ .debug_str     0x000000000008fdd9      0x2d2 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_str_formatter.o
+                                      0x88298 (size before relaxing)
+ .debug_str     0x00000000000900ab      0x131 Output/Release/Obj/radio_BLE_test_pca10100/app_error.o
+                                      0x79895 (size before relaxing)
+ .debug_str     0x00000000000901dc       0xbb Output/Release/Obj/radio_BLE_test_pca10100/app_error_weak.o
+                                      0x886b1 (size before relaxing)
+ .debug_str     0x0000000000090297     0x17d9 Output/Release/Obj/radio_BLE_test_pca10100/app_timer2.o
+                                      0x8ba6a (size before relaxing)
+ .debug_str     0x0000000000091a70      0x1e3 Output/Release/Obj/radio_BLE_test_pca10100/app_util_platform.o
+                                      0x7a0d5 (size before relaxing)
+ .debug_str     0x0000000000091c53      0x740 Output/Release/Obj/radio_BLE_test_pca10100/drv_rtc.o
+                                      0x8b341 (size before relaxing)
+ .debug_str     0x0000000000092393      0x155 Output/Release/Obj/radio_BLE_test_pca10100/nrf_atfifo.o
+                                      0x86f9d (size before relaxing)
+ .debug_str     0x00000000000924e8      0x6b2 Output/Release/Obj/radio_BLE_test_pca10100/nrf_atomic.o
+                                      0x84604 (size before relaxing)
+ .debug_str     0x0000000000092b9a      0x22d Output/Release/Obj/radio_BLE_test_pca10100/nrf_balloc.o
+                                      0x8c383 (size before relaxing)
+ .debug_str     0x0000000000092dc7     0x3cbe Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli.o
+                                      0x92a9a (size before relaxing)
+ .debug_str     0x0000000000096a85     0x15ad Output/Release/Obj/radio_BLE_test_pca10100/nrf_cli_uart.o
+                                      0x90878 (size before relaxing)
+ .debug_str     0x0000000000098032       0x2a Output/Release/Obj/radio_BLE_test_pca10100/nrf_fprintf.o
+                                      0x84195 (size before relaxing)
+ .debug_str     0x000000000009805c      0x4fd Output/Release/Obj/radio_BLE_test_pca10100/nrf_fprintf_format.o
+                                      0x8468f (size before relaxing)
+ .debug_str     0x0000000000098559      0x16c Output/Release/Obj/radio_BLE_test_pca10100/nrf_memobj.o
+                                      0x86336 (size before relaxing)
+ .debug_str     0x00000000000986c5      0xbd4 Output/Release/Obj/radio_BLE_test_pca10100/nrf_pwr_mgmt.o
+                                      0x8c8da (size before relaxing)
+ .debug_str     0x0000000000099299      0x24e Output/Release/Obj/radio_BLE_test_pca10100/nrf_queue.o
+                                      0x8c528 (size before relaxing)
+ .debug_str     0x00000000000994e7       0x94 Output/Release/Obj/radio_BLE_test_pca10100/nrf_ringbuf.o
+                                      0x849d3 (size before relaxing)
+ .debug_str     0x000000000009957b       0xe2 Output/Release/Obj/radio_BLE_test_pca10100/nrf_sortlist.o
+                                      0x86ce4 (size before relaxing)
+ .debug_str     0x000000000009965d      0xa2b Output/Release/Obj/radio_BLE_test_pca10100/nrf_drv_clock.o
+                                      0x8ac62 (size before relaxing)
+ .debug_str     0x000000000009a088      0x769 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_clock.o
+                                      0x8b23c (size before relaxing)
+ .debug_str     0x000000000009a7f1      0x35e Output/Release/Obj/radio_BLE_test_pca10100/nrfx_prs.o
+                                      0x8a9d5 (size before relaxing)
+ .debug_str     0x000000000009ab4f     0x1120 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
+                                      0x8bb00 (size before relaxing)
+ .debug_str     0x000000000009bc6f      0xad9 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
+                                      0x8bbc9 (size before relaxing)
+ .debug_str     0x000000000009c748      0xc94 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
+                                      0x8c05e (size before relaxing)
+ .debug_str     0x000000000009d3dc     0x22db Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                                      0x9324a (size before relaxing)
+ .debug_str     0x000000000009f6b7      0xde7 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                                      0x90187 (size before relaxing)
+ .debug_str     0x00000000000a049e     0x1183 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                                      0x8ce12 (size before relaxing)
+ .debug_str     0x00000000000a1621      0x3b1 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+                                      0x87a71 (size before relaxing)
+ .debug_str     0x00000000000a19d2      0x5a5 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+                                      0x7d53f (size before relaxing)
+ .debug_str     0x00000000000a1f77       0x33 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf52833.o
+                                         0x7e (size before relaxing)
+ .debug_str     0x00000000000a1faa       0x35 Output/Release/Obj/radio_BLE_test_pca10100/ses_startup_nrf_common.o
+                                         0x80 (size before relaxing)
+ .debug_str     0x00000000000a1fdf      0x239 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+                                      0x7875d (size before relaxing)
 
 .debug_ranges   0x0000000000000000     0x3278
  .debug_ranges  0x0000000000000000       0x90 Output/Release/Obj/radio_BLE_test_pca10100/thumb_crt0.o
@@ -9312,7 +9310,7 @@ LOAD linker stubs
  .debug_frame   0x000000000000337c      0x42c Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
  .debug_frame   0x00000000000037a8       0x30 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
-.debug_loc      0x0000000000000000    0x15a0e
+.debug_loc      0x0000000000000000    0x15962
  .debug_loc     0x0000000000000000      0x1af Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
  .debug_loc     0x00000000000001af      0x186 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_serial.o
  .debug_loc     0x0000000000000335       0x31 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_default_backends.o
@@ -9341,14 +9339,14 @@ LOAD linker stubs
  .debug_loc     0x000000000000d447      0xb47 Output/Release/Obj/radio_BLE_test_pca10100/nrfx_timer.o
  .debug_loc     0x000000000000df8e     0x161c Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uart.o
  .debug_loc     0x000000000000f5aa     0x177d Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
- .debug_loc     0x0000000000010d27      0x316 Output/Release/Obj/radio_BLE_test_pca10100/main.o
- .debug_loc     0x000000000001103d     0x236f Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
- .debug_loc     0x00000000000133ac      0xe96 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
- .debug_loc     0x0000000000014242     0x1736 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_loc     0x0000000000015978       0x96 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+ .debug_loc     0x0000000000010d27      0x26a Output/Release/Obj/radio_BLE_test_pca10100/main.o
+ .debug_loc     0x0000000000010f91     0x236f Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+ .debug_loc     0x0000000000013300      0xe96 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+ .debug_loc     0x0000000000014196     0x1736 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_loc     0x00000000000158cc       0x96 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
 .debug_pubnames
-                0x0000000000000000     0xc178
+                0x0000000000000000     0xc176
  .debug_pubnames
                 0x0000000000000000      0x12a Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
  .debug_pubnames
@@ -9406,17 +9404,17 @@ LOAD linker stubs
  .debug_pubnames
                 0x0000000000007714      0xd0f Output/Release/Obj/radio_BLE_test_pca10100/nrfx_uarte.o
  .debug_pubnames
-                0x0000000000008423      0xb0c Output/Release/Obj/radio_BLE_test_pca10100/main.o
+                0x0000000000008423      0xb0a Output/Release/Obj/radio_BLE_test_pca10100/main.o
  .debug_pubnames
-                0x0000000000008f2f     0x117f Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
+                0x0000000000008f2d     0x117f Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .debug_pubnames
-                0x000000000000a0ae     0x1bb4 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
+                0x000000000000a0ac     0x1bb4 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
  .debug_pubnames
-                0x000000000000bc62       0x9c Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+                0x000000000000bc60       0x9c Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
  .debug_pubnames
-                0x000000000000bcfe      0x3c3 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+                0x000000000000bcfc      0x3c3 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
  .debug_pubnames
-                0x000000000000c0c1       0xb7 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+                0x000000000000c0bf       0xb7 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
 .debug_pubtypes
                 0x0000000000000000     0x5ee3
@@ -9489,7 +9487,7 @@ LOAD linker stubs
  .debug_pubtypes
                 0x0000000000005d4f      0x194 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
 
-.debug_macro    0x0000000000000000    0x1cadb
+.debug_macro    0x0000000000000000    0x1cc1a
  .debug_macro   0x0000000000000000      0x304 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
  .debug_macro   0x0000000000000304      0xac6 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
  .debug_macro   0x0000000000000dca      0x1a3 Output/Release/Obj/radio_BLE_test_pca10100/nrf_log_backend_rtt.o
@@ -9615,7 +9613,8 @@ LOAD linker stubs
  .debug_macro   0x000000000001c236       0x22 Output/Release/Obj/radio_BLE_test_pca10100/radio_cmd.o
  .debug_macro   0x000000000001c258      0x2db Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
  .debug_macro   0x000000000001c533       0x16 Output/Release/Obj/radio_BLE_test_pca10100/radio_test.o
- .debug_macro   0x000000000001c549      0x2c3 Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
- .debug_macro   0x000000000001c80c      0x19f Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_macro   0x000000000001c9ab       0x47 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
- .debug_macro   0x000000000001c9f2       0xe9 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o
+ .debug_macro   0x000000000001c549      0x2ed Output/Release/Obj/radio_BLE_test_pca10100/radio_config.o
+ .debug_macro   0x000000000001c836      0x19f Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_macro   0x000000000001c9d5       0x47 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_macro   0x000000000001ca1c      0x115 Output/Release/Obj/radio_BLE_test_pca10100/SEGGER_RTT.o
+ .debug_macro   0x000000000001cb31       0xe9 Output/Release/Obj/radio_BLE_test_pca10100/system_nrf52833.o

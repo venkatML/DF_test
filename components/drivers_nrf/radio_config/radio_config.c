@@ -136,7 +136,7 @@ static uint32_t bytewise_bitswap(uint32_t inp)
 
 // DFECTRL1 register values
 
-#define NUMBEROF8US         3  // in unit of 8 us
+#define NUMBEROF8US         20  // in unit of 8 us
 #define DFEINEXTENSION      1  // 1:crc  0:payload
 #define TSWITCHSPACING      2  // 1:4us 2:2us 3: 1us
 #define TSAMPLESPACINGREF   6  // 1:4us 2:2us 3: 1us 4:500ns 5:250ns 6:125ns
@@ -171,9 +171,6 @@ void radio_configure_direction_finding_manual(void) {
     NRF_RADIO->DFECTRL2          = (uint32_t)(TSWITCHOFFSET      << 0)  |
                                       (uint32_t)(TSAMPLEOFFSET      << 0);
   
-
-   // NRF_RADIO->DFEPACKET.MAXCNT  = MAX_IQSAMPLES;
-   // NRF_RADIO->DFEPACKET.PTR     = (uint32_t)(&radio_vars.df_samples[0]);
 }
 
 #define CTEINLINECTRLEN     1 // 1: enabled 0: disabled
@@ -210,9 +207,6 @@ void radio_configure_direction_finding_inline(void) {
     NRF_RADIO->DFECTRL2          = (uint32_t)(TSWITCHOFFSET      << 0) |
                                       (uint32_t)(TSAMPLEOFFSET      << 0);
   
-
-  //  NRF_RADIO->DFEPACKET.MAXCNT  = MAX_IQSAMPLES;
-  //  NRF_RADIO->DFEPACKET.PTR     = (uint32_t)(&radio_vars.df_samples[0]);
 }
 
 

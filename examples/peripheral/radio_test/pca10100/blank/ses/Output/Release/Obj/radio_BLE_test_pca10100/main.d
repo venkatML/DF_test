@@ -90,4 +90,4 @@ Output/Release/Obj/radio_BLE_test_pca10100/main.o: \
  d\:\df_test\components\libraries\log\src\nrf_log_internal.h \
  d\:\df_test\components\libraries\log\nrf_log_types.h \
  d\:\df_test\components\libraries\log\nrf_log_default_backends.h \
- D\:/nRF5SDK1702d674dde/nRF5_SDK_17.0.2_d674dde/components/drivers_nrf/radio_config/radio_config.h
+ d\:\df_test\components\drivers_nrf\radio_config\radio_config.h
